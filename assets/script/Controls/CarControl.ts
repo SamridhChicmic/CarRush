@@ -109,6 +109,7 @@ export class CarControl extends Component {
     if (this.keyLeft == true) {
       this.moveLeft(deltaTime);
       //if (this.keyUp == true) this.moveForword(deltaTime);
+      //consle.log();
     }
     if (this.keyRight == true) this.moveRight(deltaTime);
   }
