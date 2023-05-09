@@ -28,11 +28,27 @@ export class CarControl extends Component {
     input.on(Input.EventType.KEY_PRESSING, this.keyControl, this);
     input.on(Input.EventType.KEY_UP, this.keyRelease, this);
   }
-  keyRelease() {
-    this.keyUp = false;
-    this.keyDown = false;
-    this.keyLeft = false;
-    this.keyRight = false;
+  keyRelease(EventType) {
+    switch (EventType.keyCode) {
+      case KeyCode.KEY_W:
+      case KeyCode.ARROW_UP:
+        this.keyUp = false;
+
+        break;
+      case KeyCode.KEY_S:
+      case KeyCode.ARROW_DOWN:
+        this.keyDown = false;
+
+        break;
+      case KeyCode.KEY_D:
+      case KeyCode.ARROW_RIGHT:
+        this.keyRight = false;
+        break;
+      case KeyCode.KEY_A:
+      case KeyCode.ARROW_LEFT:
+        this.keyLeft = false;
+        break;
+    }
   }
   keyControl(EventType) {
     //console.log("Type..", EventType.keyCode);
@@ -65,7 +81,7 @@ export class CarControl extends Component {
     let NodeEularAngle = this.CarRoot.eulerAngles;
     this.CarRoot.eulerAngles = new Vec3(
       NodeEularAngle.x,
-      NodeEularAngle.y + this.speed * deltaTime,
+      NodeEularAngle.y + 0.5,
       NodeEularAngle.z
     );
   }
@@ -73,7 +89,7 @@ export class CarControl extends Component {
     let NodeEularAngle = this.CarRoot.eulerAngles;
     this.CarRoot.eulerAngles = new Vec3(
       NodeEularAngle.x,
-      NodeEularAngle.y - this.speed * deltaTime,
+      NodeEularAngle.y - 0.5,
       NodeEularAngle.z
     );
   }
@@ -106,11 +122,7 @@ export class CarControl extends Component {
   update(deltaTime: number) {
     if (this.keyUp == true) this.moveForword(deltaTime);
     if (this.keyDown == true) this.moveBackword(deltaTime);
-    if (this.keyLeft == true) {
-      this.moveLeft(deltaTime);
-      //if (this.keyUp == true) this.moveForword(deltaTime);
-      //consle.log();
-    }
+    if (this.keyLeft == true) this.moveLeft(deltaTime);
     if (this.keyRight == true) this.moveRight(deltaTime);
   }
 }
