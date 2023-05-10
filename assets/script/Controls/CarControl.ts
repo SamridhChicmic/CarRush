@@ -20,6 +20,7 @@ export class CarControl extends Component {
   keyDown: boolean = false;
   keyLeft: boolean = false;
   keyRight: boolean = false;
+  turn: number = 1;
   start() {
     this.registerEvents();
   }
@@ -81,7 +82,7 @@ export class CarControl extends Component {
     let NodeEularAngle = this.CarRoot.eulerAngles;
     this.CarRoot.eulerAngles = new Vec3(
       NodeEularAngle.x,
-      NodeEularAngle.y + 0.5,
+      NodeEularAngle.y + this.turn,
       NodeEularAngle.z
     );
   }
@@ -89,7 +90,7 @@ export class CarControl extends Component {
     let NodeEularAngle = this.CarRoot.eulerAngles;
     this.CarRoot.eulerAngles = new Vec3(
       NodeEularAngle.x,
-      NodeEularAngle.y - 0.5,
+      NodeEularAngle.y - this.turn,
       NodeEularAngle.z
     );
   }
