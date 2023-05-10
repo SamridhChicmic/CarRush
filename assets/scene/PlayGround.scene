@@ -3535,6 +3535,9 @@
     "_active": true,
     "_components": [
       {
+        "__id__": 140
+      },
+      {
         "__id__": 141
       }
     ],
@@ -3543,7 +3546,7 @@
       "__type__": "cc.Vec3",
       "x": 40.71,
       "y": 1.857,
-      "z": -40.38
+      "z": -40.691
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -3620,9 +3623,6 @@
       },
       {
         "__id__": 139
-      },
-      {
-        "__id__": 140
       }
     ],
     "_prefab": null,
@@ -4324,7 +4324,7 @@
     "_group": 1,
     "_type": 1,
     "_mass": 1,
-    "_allowSleep": false,
+    "_allowSleep": true,
     "_linearDamping": 0.1,
     "_angularDamping": 0.1,
     "_useGravity": true,
@@ -4493,17 +4493,6 @@
     "_id": "77evvjOe9PZ7zLE7SYu7W4"
   },
   {
-    "__type__": "c6d04niMLBJnJCGy5mSe09s",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 112
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "_id": "9dF93v+I1JMLnb3fAg9VcU"
-  },
-  {
     "__type__": "58b0apvWuNIppuv/9PmxDMz",
     "_name": "",
     "_objFlags": 0,
@@ -4517,6 +4506,23 @@
       "__id__": 112
     },
     "_id": "0bJM6+HtRLd695sy4B9rri"
+  },
+  {
+    "__type__": "f7214gWV1VHV7S6WGQE/p/R",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 111
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "CarRoot": {
+      "__id__": 112
+    },
+    "DeadZonePlan": {
+      "__id__": 106
+    },
+    "_id": "e5FnPxnG1J8qGCxtOQk5lY"
   },
   {
     "__type__": "cc.Node",

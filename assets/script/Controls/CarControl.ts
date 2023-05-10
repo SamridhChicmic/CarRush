@@ -52,28 +52,28 @@ export class CarControl extends Component {
     }
   }
   keyControl(EventType) {
-    //console.log("Type..", EventType.keyCode);
+   
     switch (EventType.keyCode) {
       case KeyCode.KEY_W:
       case KeyCode.ARROW_UP:
         this.keyUp = true;
-        console.log("Forword");
+    
 
         break;
       case KeyCode.KEY_S:
       case KeyCode.ARROW_DOWN:
-        console.log("BackWord");
+       
         this.keyDown = true;
 
         break;
       case KeyCode.KEY_D:
       case KeyCode.ARROW_RIGHT:
-        console.log("Right");
+   
         this.keyRight = true;
         break;
       case KeyCode.KEY_A:
       case KeyCode.ARROW_LEFT:
-        console.log("Left");
+      
         this.keyLeft = true;
         break;
     }
