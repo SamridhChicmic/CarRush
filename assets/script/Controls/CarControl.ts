@@ -6,6 +6,7 @@ import {
   input,
   KeyCode,
   Node,
+  RigidBody,
   Vec3,
 } from "cc";
 const { ccclass, property } = _decorator;
@@ -52,28 +53,23 @@ export class CarControl extends Component {
     }
   }
   keyControl(EventType) {
-   
     switch (EventType.keyCode) {
       case KeyCode.KEY_W:
       case KeyCode.ARROW_UP:
         this.keyUp = true;
-    
 
         break;
       case KeyCode.KEY_S:
       case KeyCode.ARROW_DOWN:
-       
         this.keyDown = true;
 
         break;
       case KeyCode.KEY_D:
       case KeyCode.ARROW_RIGHT:
-   
         this.keyRight = true;
         break;
       case KeyCode.KEY_A:
       case KeyCode.ARROW_LEFT:
-      
         this.keyLeft = true;
         break;
     }

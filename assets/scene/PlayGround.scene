@@ -27,25 +27,25 @@
         "__id__": 142
       },
       {
-        "__id__": 145
+        "__id__": 146
       },
       {
-        "__id__": 148
-      },
-      {
-        "__id__": 151
+        "__id__": 150
       },
       {
         "__id__": 154
       },
       {
-        "__id__": 157
+        "__id__": 158
       },
       {
-        "__id__": 160
+        "__id__": 162
       },
       {
-        "__id__": 163
+        "__id__": 166
+      },
+      {
+        "__id__": 170
       }
     ],
     "_active": true,
@@ -80,7 +80,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 166
+      "__id__": 174
     },
     "_id": "576c4d93-ddd6-4a53-8351-9ebd6cf0f04d"
   },
@@ -101,16 +101,16 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
+      "x": -1.373,
+      "y": 110.507,
+      "z": -73.195
     },
     "_lrot": {
       "__type__": "cc.Quat",
-      "x": -0.06397656665577071,
-      "y": -0.44608233363525845,
-      "z": -0.8239028751062036,
-      "w": -0.3436591377065261
+      "x": -0.24956715107611244,
+      "y": -0.7257420619230815,
+      "z": -0.5391331594295216,
+      "w": -0.3469151669542987
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -122,9 +122,9 @@
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": -117.894,
-      "y": -194.909,
-      "z": 38.562
+      "x": -64.237,
+      "y": -200.272,
+      "z": 47.418
     },
     "_id": "c0y6F5f+pAvI805TdmxIjx"
   },
@@ -153,8 +153,8 @@
     "_illuminanceHDR": 65000,
     "_illuminance": 65000,
     "_illuminanceLDR": 1.6927083333333335,
-    "_shadowEnabled": false,
-    "_shadowPcf": 0,
+    "_shadowEnabled": true,
+    "_shadowPcf": 1,
     "_shadowBias": 0.00001,
     "_shadowNormalBias": 0,
     "_shadowSaturation": 1,
@@ -936,9 +936,9 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 19.859,
+      "x": 19.951,
       "y": 0,
-      "z": -19.972
+      "z": -19.872
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -1674,9 +1674,9 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": -0.287,
       "y": 0,
-      "z": 19.891
+      "z": 20.097
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -1922,7 +1922,7 @@
       "__type__": "cc.Vec3",
       "x": 39.753,
       "y": 0,
-      "z": 19.891
+      "z": 19.991
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -3546,7 +3546,7 @@
       "__type__": "cc.Vec3",
       "x": 40.71,
       "y": 1.857,
-      "z": -40.691
+      "z": -40.703
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -3722,7 +3722,7 @@
       "__uuid__": "b431a460-d1b5-451d-969a-0b3e60ec8068@b01e4",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
@@ -3740,7 +3740,7 @@
       "w": 0
     },
     "_bakeable": false,
-    "_castShadow": false,
+    "_castShadow": true,
     "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64,
@@ -3817,7 +3817,7 @@
       "__uuid__": "b431a460-d1b5-451d-969a-0b3e60ec8068@14b6a",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
@@ -3835,7 +3835,7 @@
       "w": 0
     },
     "_bakeable": false,
-    "_castShadow": false,
+    "_castShadow": true,
     "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64,
@@ -3912,7 +3912,7 @@
       "__uuid__": "b431a460-d1b5-451d-969a-0b3e60ec8068@4166c",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
@@ -3930,7 +3930,7 @@
       "w": 0
     },
     "_bakeable": false,
-    "_castShadow": false,
+    "_castShadow": true,
     "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64,
@@ -4007,7 +4007,7 @@
       "__uuid__": "b431a460-d1b5-451d-969a-0b3e60ec8068@801a3",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
@@ -4025,7 +4025,7 @@
       "w": 0
     },
     "_bakeable": false,
-    "_castShadow": false,
+    "_castShadow": true,
     "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64,
@@ -4102,7 +4102,7 @@
       "__uuid__": "b431a460-d1b5-451d-969a-0b3e60ec8068@8c383",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
@@ -4120,7 +4120,7 @@
       "w": 0
     },
     "_bakeable": false,
-    "_castShadow": false,
+    "_castShadow": true,
     "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64,
@@ -4197,7 +4197,7 @@
       "__uuid__": "b431a460-d1b5-451d-969a-0b3e60ec8068@6726b",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
@@ -4215,7 +4215,7 @@
       "w": 0
     },
     "_bakeable": false,
-    "_castShadow": false,
+    "_castShadow": true,
     "_receiveShadow": false,
     "_recieveShadow": false,
     "_lightmapSize": 64,
@@ -4242,16 +4242,16 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0.915,
-      "z": 2.6069999999999993
+      "x": 0.016,
+      "y": 1.393,
+      "z": 3.592
     },
     "_lrot": {
       "__type__": "cc.Quat",
-      "x": -0.046578682318181026,
-      "y": 0.007520903138125692,
-      "z": -0.00035694189860540953,
-      "w": 0.9988862472584003
+      "x": -0.12502325860448352,
+      "y": 0.007525672759608858,
+      "z": 0.0002358835461203321,
+      "w": 0.9921252407918995
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -4263,9 +4263,9 @@
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": -5.3389999999999995,
-      "y": 0.8589999999999985,
-      "z": -0.08099999999999999
+      "x": -14.364,
+      "y": 0.859,
+      "z": -0.081
     },
     "_id": "c9DMICJLFO5IeO07EPon7U"
   },
@@ -4536,6 +4536,9 @@
     "_components": [
       {
         "__id__": 143
+      },
+      {
+        "__id__": 145
       }
     ],
     "_prefab": null,
@@ -4591,8 +4594,8 @@
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_enableMorph": true,
@@ -4620,6 +4623,28 @@
     "_probeCubemap": null
   },
   {
+    "__type__": "cc.CapsuleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 142
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_cylinderHeight": 1,
+    "_direction": 1,
+    "_id": "532LJL98tA2akvE+1clkvc"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Capsule-001",
     "_objFlags": 0,
@@ -4630,7 +4655,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 146
+        "__id__": 147
+      },
+      {
+        "__id__": 149
       }
     ],
     "_prefab": null,
@@ -4668,7 +4696,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 145
+      "__id__": 146
     },
     "_enabled": true,
     "__prefab": null,
@@ -4680,14 +4708,14 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 147
+      "__id__": 148
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_enableMorph": true,
@@ -4715,6 +4743,28 @@
     "_probeCubemap": null
   },
   {
+    "__type__": "cc.CapsuleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 146
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_cylinderHeight": 1,
+    "_direction": 1,
+    "_id": "f2SP+hXJ5EJqxEJB+MWd8C"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Capsule-002",
     "_objFlags": 0,
@@ -4725,7 +4775,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 149
+        "__id__": 151
+      },
+      {
+        "__id__": 153
       }
     ],
     "_prefab": null,
@@ -4763,7 +4816,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 148
+      "__id__": 150
     },
     "_enabled": true,
     "__prefab": null,
@@ -4775,14 +4828,14 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 150
+      "__id__": 152
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_enableMorph": true,
@@ -4810,6 +4863,28 @@
     "_probeCubemap": null
   },
   {
+    "__type__": "cc.CapsuleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 150
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_cylinderHeight": 1,
+    "_direction": 1,
+    "_id": "d92WRBmX1KRJcIZyAsVuZt"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Capsule-003",
     "_objFlags": 0,
@@ -4820,7 +4895,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 152
+        "__id__": 155
+      },
+      {
+        "__id__": 157
       }
     ],
     "_prefab": null,
@@ -4858,7 +4936,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 151
+      "__id__": 154
     },
     "_enabled": true,
     "__prefab": null,
@@ -4870,14 +4948,14 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 153
+      "__id__": 156
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_enableMorph": true,
@@ -4905,6 +4983,28 @@
     "_probeCubemap": null
   },
   {
+    "__type__": "cc.CapsuleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 154
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_cylinderHeight": 1,
+    "_direction": 1,
+    "_id": "29Bnm8HlxAG6XtKSNDMQ2J"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Capsule-004",
     "_objFlags": 0,
@@ -4915,7 +5015,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 155
+        "__id__": 159
+      },
+      {
+        "__id__": 161
       }
     ],
     "_prefab": null,
@@ -4953,7 +5056,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 154
+      "__id__": 158
     },
     "_enabled": true,
     "__prefab": null,
@@ -4965,14 +5068,14 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 156
+      "__id__": 160
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_enableMorph": true,
@@ -5000,6 +5103,28 @@
     "_probeCubemap": null
   },
   {
+    "__type__": "cc.CapsuleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 158
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_cylinderHeight": 1,
+    "_direction": 1,
+    "_id": "46bVmBrEZFDYLy4mtxZ8E1"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Capsule-005",
     "_objFlags": 0,
@@ -5010,14 +5135,17 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 158
+        "__id__": 163
+      },
+      {
+        "__id__": 165
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 74.269,
-      "y": 1.832,
+      "x": 53.832,
+      "y": -1.672,
       "z": -10.699
     },
     "_lrot": {
@@ -5048,7 +5176,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 157
+      "__id__": 162
     },
     "_enabled": true,
     "__prefab": null,
@@ -5060,14 +5188,14 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 159
+      "__id__": 164
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_enableMorph": true,
@@ -5095,6 +5223,28 @@
     "_probeCubemap": null
   },
   {
+    "__type__": "cc.CapsuleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 162
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_cylinderHeight": 1,
+    "_direction": 1,
+    "_id": "33MJmdV8ZCsoXmkj1609Pd"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Capsule-006",
     "_objFlags": 0,
@@ -5105,7 +5255,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 161
+        "__id__": 167
+      },
+      {
+        "__id__": 169
       }
     ],
     "_prefab": null,
@@ -5143,7 +5296,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 160
+      "__id__": 166
     },
     "_enabled": true,
     "__prefab": null,
@@ -5155,14 +5308,14 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 162
+      "__id__": 168
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_enableMorph": true,
@@ -5190,6 +5343,28 @@
     "_probeCubemap": null
   },
   {
+    "__type__": "cc.CapsuleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 166
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_cylinderHeight": 1,
+    "_direction": 1,
+    "_id": "409n/nGaFKGIIKRTSns3aO"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Capsule-007",
     "_objFlags": 0,
@@ -5200,7 +5375,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 164
+        "__id__": 171
+      },
+      {
+        "__id__": 173
       }
     ],
     "_prefab": null,
@@ -5238,7 +5416,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 163
+      "__id__": 170
     },
     "_enabled": true,
     "__prefab": null,
@@ -5250,14 +5428,14 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 165
+      "__id__": 172
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
       "__expectedType__": "cc.Mesh"
     },
-    "_shadowCastingMode": 0,
-    "_shadowReceivingMode": 1,
+    "_shadowCastingMode": 1,
+    "_shadowReceivingMode": 0,
     "_shadowBias": 0,
     "_shadowNormalBias": 0,
     "_enableMorph": true,
@@ -5285,24 +5463,46 @@
     "_probeCubemap": null
   },
   {
-    "__type__": "cc.SceneGlobals",
-    "ambient": {
-      "__id__": 167
-    },
-    "shadows": {
-      "__id__": 168
-    },
-    "_skybox": {
-      "__id__": 169
-    },
-    "fog": {
+    "__type__": "cc.CapsuleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
       "__id__": 170
     },
+    "_enabled": true,
+    "__prefab": null,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_radius": 0.5,
+    "_cylinderHeight": 1,
+    "_direction": 1,
+    "_id": "1aoUU7eRdN9ImsaDorkbdz"
+  },
+  {
+    "__type__": "cc.SceneGlobals",
+    "ambient": {
+      "__id__": 175
+    },
+    "shadows": {
+      "__id__": 176
+    },
+    "_skybox": {
+      "__id__": 177
+    },
+    "fog": {
+      "__id__": 178
+    },
     "octree": {
-      "__id__": 171
+      "__id__": 179
     },
     "lightProbeInfo": {
-      "__id__": 172
+      "__id__": 180
     },
     "bakedWithStationaryMainLight": false
   },
@@ -5356,7 +5556,7 @@
   },
   {
     "__type__": "cc.ShadowsInfo",
-    "_enabled": false,
+    "_enabled": true,
     "_type": 0,
     "_normal": {
       "__type__": "cc.Vec3",
@@ -5372,7 +5572,7 @@
       "b": 76,
       "a": 255
     },
-    "_maxReceived": 4,
+    "_maxReceived": 15,
     "_size": {
       "__type__": "cc.Vec2",
       "x": 1024,
