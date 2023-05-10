@@ -25,5 +25,10 @@ export class PowerManager extends Component {
     }
   }
 
-  update(deltaTime: number) {}
+  update(deltaTime: number) {
+    this.node.children.forEach((Element) => {
+      let angle = Element.eulerAngles;
+      Element.eulerAngles = new Vec3(angle.x, angle.y + 5, angle.z);
+    });
+  }
 }
