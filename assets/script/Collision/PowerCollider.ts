@@ -15,7 +15,9 @@ export class PowerCollider extends Component {
       () => {
         console.log(
           "Position Index--->>",
-          this.node.getComponent(PowerBox).PositionTrack
+          this.node.getComponent(PowerBox).PositionTrack,
+          "Name--->",
+          this.node.name
         );
         this.PowerBoxMng.JsonPositionArray[
           this.node.getComponent(PowerBox).PositionTrack

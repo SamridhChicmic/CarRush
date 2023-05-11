@@ -15,8 +15,10 @@ const { ccclass, property } = _decorator;
 export class PowerManager extends Component {
   @property({ type: JsonAsset })
   PowerSetterJson: JsonAsset = null;
+
   @property({ type: Prefab })
-  PowerPrefab: Prefab = null;
+  PowerPrefab: Prefab[] = [];
+
   PowerBoxMng: PowerBoxManager = null;
   start() {
     this.PowerBoxMng = PowerBoxManager.getInstance();
@@ -27,7 +29,8 @@ export class PowerManager extends Component {
         this.PowerSetterJson.json[element]
       );
       this.PowerBoxMng.JsonPositionArray[element].placed = true;
-      let powerNode = instantiate(this.PowerPrefab);
+      let randomnumber = Math.floor(Math.random() * 4);
+      let powerNode = instantiate(this.PowerPrefab[randomnumber]);
       powerNode.getComponent(PowerBox).PositionTrack = element;
       this.node.addChild(powerNode);
       powerNode.setPosition(this.PowerSetterJson.json[element].pos as Vec3);
@@ -42,13 +45,14 @@ export class PowerManager extends Component {
       if (this.PowerBoxMng.JsonPositionArray[element].placed == false) {
         this.PowerBoxMng.JsonPositionArray[element].placed = true;
         setTimeout(() => {
-          let powerNode = instantiate(this.PowerPrefab);
+          let randomnumber = Math.floor(Math.random() * 4);
+          let powerNode = instantiate(this.PowerPrefab[randomnumber]);
           powerNode.getComponent(PowerBox).PositionTrack = element;
           this.node.addChild(powerNode);
           powerNode.setPosition(
             this.PowerBoxMng.JsonPositionArray[element].pos as Vec3
           );
-        }, 6000);
+        }, 5000);
       }
     }
   }
