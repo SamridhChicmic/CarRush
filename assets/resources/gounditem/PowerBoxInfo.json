@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "PowerBox",
+    "Weapon": "Gun",
+    "Power": "20",
+    "Node": 6
+  },
+  {
+    "Name": "PowerBoxTorus",
+    "Weapon": "Cannon",
+    "Power": "40",
+    "Node": 4
+  },
+  {
+    "Name": "PowerBoxSphare",
+    "Weapon": "Knife",
+    "Power": "10",
+    "Node": 1
+  },
+  {
+    "Name": "PowerBoxCylinder",
+    "Weapon": "Bomb",
+    "Power": "60",
+    "Node": 1
+  }
+]

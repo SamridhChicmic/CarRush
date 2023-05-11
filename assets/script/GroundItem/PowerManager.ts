@@ -19,8 +19,11 @@ export class PowerManager extends Component {
   @property({ type: Prefab })
   PowerPrefab: Prefab[] = [];
 
+  @property({ type: JsonAsset })
+  PowerBoxInfo: JsonAsset = null;
   PowerBoxMng: PowerBoxManager = null;
   start() {
+    //this.powerBoxInfoLoader();
     this.PowerBoxMng = PowerBoxManager.getInstance();
     let GroundElements: any = this.PowerSetterJson.json;
     let ElementLength = GroundElements.length;
@@ -32,10 +35,15 @@ export class PowerManager extends Component {
       let randomnumber = Math.floor(Math.random() * 4);
       let powerNode = instantiate(this.PowerPrefab[randomnumber]);
       powerNode.getComponent(PowerBox).PositionTrack = element;
+      powerNode.getComponent(PowerBox).PowerBoxInfo =
+        this.PowerBoxInfo.json[randomnumber];
       this.node.addChild(powerNode);
       powerNode.setPosition(this.PowerSetterJson.json[element].pos as Vec3);
     }
   }
+  // powerBoxInfoLoader() {
+  //   let PowerBoxfile:any=this.PowerBoxInfo.json;
+  // }
   retrivePowerBox() {
     for (
       let element = 0;
@@ -48,6 +56,8 @@ export class PowerManager extends Component {
           let randomnumber = Math.floor(Math.random() * 4);
           let powerNode = instantiate(this.PowerPrefab[randomnumber]);
           powerNode.getComponent(PowerBox).PositionTrack = element;
+          powerNode.getComponent(PowerBox).PowerBoxInfo =
+            this.PowerBoxInfo.json[randomnumber];
           this.node.addChild(powerNode);
           powerNode.setPosition(
             this.PowerBoxMng.JsonPositionArray[element].pos as Vec3

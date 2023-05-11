@@ -4345,13 +4345,13 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0.4,
-      "z": 0
+      "z": 0.1
     },
     "_size": {
       "__type__": "cc.Vec3",
-      "x": 0.7,
+      "x": 0.5,
       "y": 0.3,
-      "z": 1.2
+      "z": 0.6
     },
     "_id": "71lbNyVMVAuIKR3gY8RCrz"
   },
@@ -5612,6 +5612,10 @@
         "__expectedType__": "cc.Prefab"
       }
     ],
+    "PowerBoxInfo": {
+      "__uuid__": "860dd073-c344-4454-ae60-439d1714e3fd",
+      "__expectedType__": "cc.JsonAsset"
+    },
     "_id": "23cv/+k35P1LpWxmYPjTio"
   },
   {
