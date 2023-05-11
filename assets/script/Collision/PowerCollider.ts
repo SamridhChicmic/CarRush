@@ -1,6 +1,7 @@
 import { _decorator, BoxCollider, Component, Node } from "cc";
 import { PowerBox } from "../GroundItem/PowerBox";
 import { PowerBoxManager } from "../Managers/PowerBoxManager";
+import { Car } from "../Car/Car";
 const { ccclass, property } = _decorator;
 
 @ccclass("PowerCollider")
@@ -13,6 +14,7 @@ export class PowerCollider extends Component {
     this.PowerBoxTrigger.on(
       "onTriggerEnter",
       () => {
+        this.node.destroy();
         console.log(
           "Position Index--->>",
           this.node.getComponent(PowerBox).PositionTrack,
@@ -22,8 +24,8 @@ export class PowerCollider extends Component {
         this.PowerBoxMng.JsonPositionArray[
           this.node.getComponent(PowerBox).PositionTrack
         ].placed = false;
-        this.node.destroy();
       },
+           
       this
     );
   }
