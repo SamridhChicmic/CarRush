@@ -14,18 +14,24 @@ export class PowerCollider extends Component {
     this.PowerBoxTrigger.on(
       "onTriggerEnter",
       () => {
-        this.node.destroy();
-        console.log(
-          "Position Index--->>",
-          this.node.getComponent(PowerBox).PositionTrack,
-          "Name--->",
-          this.node.getComponent(PowerBox).PowerBoxInfo
-        );
-        this.PowerBoxMng.JsonPositionArray[
-          this.node.getComponent(PowerBox).PositionTrack
-        ].placed = false;
+        if (this.PowerBoxMng.CurrentCarPowerBox == null) {
+          this.node.destroy();
+          this.PowerBoxMng.CurrentCarPowerBox =
+            this.node.getComponent(PowerBox).PowerBoxInfo;
+          console.log(
+            "Position Index--->>",
+            this.node.getComponent(PowerBox).PositionTrack,
+            "Name--->",
+            this.node.getComponent(PowerBox).PowerBoxInfo
+          );
+          this.PowerBoxMng.JsonPositionArray[
+            this.node.getComponent(PowerBox).PositionTrack
+          ].placed = false;
+        } else {
+          console.log("ALreay Have Weapons");
+        }
       },
-           
+
       this
     );
   }

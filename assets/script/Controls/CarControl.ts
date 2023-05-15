@@ -9,6 +9,8 @@ import {
   RigidBody,
   Vec3,
 } from "cc";
+import { Car } from "../Car/Car";
+import { PowerBoxManager } from "../Managers/PowerBoxManager";
 const { ccclass, property } = _decorator;
 
 @ccclass("CarControl")
@@ -22,7 +24,9 @@ export class CarControl extends Component {
   keyLeft: boolean = false;
   keyRight: boolean = false;
   turn: number = 1;
+  PowerBoxMng = null;
   start() {
+    this.PowerBoxMng = PowerBoxManager.getInstance();
     this.registerEvents();
   }
   registerEvents() {
@@ -72,6 +76,18 @@ export class CarControl extends Component {
       case KeyCode.ARROW_LEFT:
         this.keyLeft = true;
         break;
+      case KeyCode.SPACE:
+        this.useWeapon();
+        break;
+    }
+  }
+  useWeapon() {
+    if (this.node.getComponent(Car).CurrentWeaponInfo != null) {
+      console.log("Weapon Used");
+      this.node.getComponent(Car).CurrentWeaponInfo = null;
+      this.PowerBoxMng.CurrentCarPowerBox = null;
+    } else {
+      console.log("No weapon");
     }
   }
   moveLeft(deltaTime) {

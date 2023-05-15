@@ -5,6 +5,7 @@ const { ccclass, property } = _decorator;
 export class PowerBoxManager {
   private static _instance: PowerBoxManager = null;
   JsonPositionArray = [];
+  CurrentCarPowerBox = null;
   static getInstance(): PowerBoxManager {
     if (!PowerBoxManager._instance) {
       PowerBoxManager._instance = new PowerBoxManager();
