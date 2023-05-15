@@ -24,7 +24,7 @@ export class CarControl extends Component {
   keyLeft: boolean = false;
   keyRight: boolean = false;
   turn: number = 1;
-  PowerBoxMng = null;
+  PowerBoxMng: PowerBoxManager = null;
   start() {
     this.PowerBoxMng = PowerBoxManager.getInstance();
     this.registerEvents();
@@ -84,7 +84,7 @@ export class CarControl extends Component {
   useWeapon() {
     if (this.node.getComponent(Car).CurrentWeaponInfo != null) {
       console.log("Weapon Used");
-      this.node.getComponent(Car).CurrentWeaponInfo = null;
+
       this.PowerBoxMng.CurrentCarPowerBox = null;
     } else {
       console.log("No weapon");

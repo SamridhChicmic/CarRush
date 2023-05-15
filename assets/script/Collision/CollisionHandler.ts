@@ -7,6 +7,7 @@ import {
   RigidBody,
   Vec3,
 } from "cc";
+import { PowerBoxManager } from "../Managers/PowerBoxManager";
 const { ccclass, property } = _decorator;
 
 @ccclass("CollisionHandler")
@@ -21,7 +22,9 @@ export class CollisionHandler extends Component {
   CheckPointPosition: Vec3 = null;
   CheckPointAngles: Quat = null;
   collisionEnter: boolean = false;
+  PowerBoxMng: PowerBoxManager = null;
   start() {
+    this.PowerBoxMng = PowerBoxManager.getInstance();
     this.CheckPointPosition = this.CarRoot.getPosition();
     this.CheckPointAngles = this.CarRoot.getRotation();
     let CarCollidersArray = this.CarRoot.getComponents(BoxCollider);
@@ -40,6 +43,7 @@ export class CollisionHandler extends Component {
     this.collisionEnter = true;
   }
   setPositionAfterCollision() {
+    this.PowerBoxMng.CurrentCarPowerBox = null;
     this.CarRoot.setPosition(this.CheckPointPosition);
     this.CarRoot.setRotation(this.CheckPointAngles);
     this.collisionEnter = false;

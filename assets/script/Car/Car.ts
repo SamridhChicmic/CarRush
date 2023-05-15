@@ -9,22 +9,9 @@ export class Car extends Component {
   start() {
     this.PowerBoxMng = PowerBoxManager.getInstance();
   }
-  useWeapon(EventType) {
-    if (EventType.KeyCode == KeyCode.SPACE && this.CurrentWeaponInfo != null) {
-      console.log("WeaponUsed");
-      this.CurrentWeaponInfo = null;
-      this.PowerBoxMng.CurrentCarPowerBox = null;
-    } else if (
-      EventType.KeyCode == KeyCode.SPACE &&
-      this.CurrentWeaponInfo == null
-    ) {
-      console.log("No Weapon");
-    }
-  }
+
   weaponCheck() {
-    if (this.CurrentWeaponInfo == null) {
-      this.CurrentWeaponInfo = this.PowerBoxMng.CurrentCarPowerBox;
-    }
+    this.CurrentWeaponInfo = this.PowerBoxMng.CurrentCarPowerBox;
   }
   update(deltaTime: number) {
     this.weaponCheck();
