@@ -13,8 +13,11 @@ export class PowerCollider extends Component {
     this.PowerBoxTrigger = this.node.getComponent(BoxCollider);
     this.PowerBoxTrigger.on(
       "onTriggerEnter",
-      () => {
-        if (this.PowerBoxMng.CurrentCarPowerBox == null) {
+      (EventType) => {
+        if (
+          this.PowerBoxMng.CurrentCarPowerBox == null &&
+          EventType.otherCollider.name == "RootNode<BoxCollider>"
+        ) {
           this.node.destroy();
           this.PowerBoxMng.CurrentCarPowerBox =
             this.node.getComponent(PowerBox).PowerBoxInfo;

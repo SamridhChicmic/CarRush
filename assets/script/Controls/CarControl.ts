@@ -84,7 +84,8 @@ export class CarControl extends Component {
   useWeapon() {
     if (this.node.getComponent(Car).CurrentWeaponInfo != null) {
       console.log("Weapon Used");
-
+      this.PowerBoxMng.WeaponInUsed = true;
+      this.PowerBoxMng.PowerBoxForUse = this.PowerBoxMng.CurrentCarPowerBox;
       this.PowerBoxMng.CurrentCarPowerBox = null;
     } else {
       console.log("No weapon");

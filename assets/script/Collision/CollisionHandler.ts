@@ -35,11 +35,18 @@ export class CollisionHandler extends Component {
     this.CarHeadCollider.on("onCollisionEnter", this.setCollisionBoolean, this);
     this.DeadZoneCollider.on(
       "onCollisionEnter",
-      this.setCollisionBoolean,
+      this.setCollisionBooleanForCar,
       this
     );
   }
-  setCollisionBoolean() {
+  //set only car position if car collide with deadzone
+  setCollisionBooleanForCar(EventType) {
+    if (EventType.otherCollider.name == "RootNode<BoxCollider>") {
+      this.collisionEnter = true;
+    }
+  }
+  // car head collide with other collider
+  setCollisionBoolean(EventType) {
     this.collisionEnter = true;
   }
   setPositionAfterCollision() {
