@@ -23,7 +23,7 @@ export class CarControl extends Component {
   keyDown: boolean = false;
   keyLeft: boolean = false;
   keyRight: boolean = false;
-  turn: number = 1;
+  turn: number = 1.5;
   PowerBoxMng: PowerBoxManager = null;
   start() {
     this.PowerBoxMng = PowerBoxManager.getInstance();
