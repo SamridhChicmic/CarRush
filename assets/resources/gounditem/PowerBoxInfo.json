@@ -3,24 +3,28 @@
     "Name": "PowerBox",
     "Weapon": "Gun",
     "Power": "20",
-    "Node": 6
+    "Node": 5,
+    "Velocity": 100
   },
   {
     "Name": "PowerBoxTorus",
     "Weapon": "Cannon",
     "Power": "40",
-    "Node": 1
+    "Node": 3,
+    "Velocity": 15
   },
   {
     "Name": "PowerBoxSphare",
     "Weapon": "Knife",
     "Power": "10",
-    "Node": 1
+    "Node": 1,
+    "Velocity": 50
   },
   {
     "Name": "PowerBoxCylinder",
     "Weapon": "Bomb",
     "Power": "60",
-    "Node": 1
+    "Node": 1,
+    "Velocity": 5
   }
 ]

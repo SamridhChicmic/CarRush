@@ -46,32 +46,22 @@ export class ball extends Component {
         break;
     }
 
-    let pos = this.node
-      .getComponent(UITransform)
-      .convertToNodeSpaceAR(this.car.getWorldPosition());
     for (let index = 1; index <= PowerBoxWeapon.Node; index++) {
-      let WeaponNode = instantiate(prefab);
-      WeaponNode.setPosition(pos.x, pos.y + 1, pos.z);
-      this.node.addChild(WeaponNode);
-      tween(WeaponNode)
-        .to(0.3, {
-          position: new Vec3(
-            pos.x + this.car.forward.x * index,
-            pos.y + 2,
-            pos.z + this.car.forward.z * index
-          ),
-        })
-        .call(() => {
-          // WeaponNode.getComponent(RigidBody).applyForce(
-          //   new Vec3(5, 1, 5),
-          //   new Vec3(0, 0, 0)
-          // );
-          WeaponNode.getComponent(RigidBody).setLinearVelocity(
-            new Vec3(this.car.forward.x * 8, 0, this.car.forward.z * 8)
-          );
-        })
-        .start();
-      // WeaponNode.getComponent(RigidBody).setLinearVelocity(new Vec3(0, 3, 0));
+      setTimeout(() => {
+        let pos = this.node
+          .getComponent(UITransform)
+          .convertToNodeSpaceAR(this.car.getWorldPosition());
+        let WeaponNode = instantiate(prefab);
+        WeaponNode.setPosition(pos.x, pos.y + 1, pos.z);
+        this.node.addChild(WeaponNode);
+        WeaponNode.getComponent(RigidBody).setLinearVelocity(
+          new Vec3(
+            this.car.forward.x * PowerBoxWeapon.Velocity,
+            0,
+            this.car.forward.z * PowerBoxWeapon.Velocity
+          )
+        );
+      }, index * 300);
     }
   }
   update(deltaTime: number) {
