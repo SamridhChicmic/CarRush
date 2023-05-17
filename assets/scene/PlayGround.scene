@@ -6060,7 +6060,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "testballs",
+    "_name": "WeaponItemHolder",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -6106,7 +6106,28 @@
     "_id": "98JX3f81ZDQqu+v22lCPS5"
   },
   {
-    "__type__": "e679690AR5M+ZLdTTHq7vkq",
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 190
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "49EzwVZjFE5ItlBqtrxfxo"
+  },
+  {
+    "__type__": "5030cUtGSZLu75B2awSrpX0",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -6133,28 +6154,7 @@
     "car": {
       "__id__": 111
     },
-    "_id": "00mUXMR2FNpLPdabcE87ry"
-  },
-  {
-    "__type__": "cc.UITransform",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 190
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 100,
-      "height": 100
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_id": "49EzwVZjFE5ItlBqtrxfxo"
+    "_id": "091CW88EBNOKVB0wzLV597"
   },
   {
     "__type__": "cc.PrefabInfo",
