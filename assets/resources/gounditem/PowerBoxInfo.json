@@ -3,7 +3,7 @@
     "Name": "PowerBox",
     "Weapon": "Gun",
     "Power": "20",
-    "Node": 5,
+    "Node": 6,
     "Velocity": 50
   },
   {
@@ -24,7 +24,7 @@
     "Name": "PowerBoxCylinder",
     "Weapon": "Bomb",
     "Power": "60",
-    "Node": 1,
-    "Velocity": 5
+    "Node": 3,
+    "Velocity": 8
   }
 ]

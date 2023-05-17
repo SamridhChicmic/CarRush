@@ -65,7 +65,8 @@ export class WeaponItemManager extends Component {
     // destoy the weapon after use
     setTimeout(() => {
       //Here i Know that theres only one childern in weaponholder that why i used children[0]
-      this.PowerBoxMng.WeaponHolder.children[0].destroy();
+      if (this.PowerBoxMng.WeaponHolder.children.length > 0)
+        this.PowerBoxMng.WeaponHolder.children[0].destroy();
     }, (index - 1) * 300);
   }
   update(deltaTime: number) {

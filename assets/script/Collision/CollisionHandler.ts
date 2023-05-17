@@ -47,6 +47,7 @@ export class CollisionHandler extends Component {
   }
   // car head collide with other collider
   setCollisionBoolean(EventType) {
+    console.log("Head",EventType.otherCollider.name);
     this.collisionEnter = true;
   }
   setPositionAfterCollision() {

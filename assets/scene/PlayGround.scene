@@ -171,7 +171,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Ground",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 1
     },
@@ -290,7 +290,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane1",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -413,7 +413,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane2",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -540,7 +540,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane3",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -663,7 +663,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane4",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -786,7 +786,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane5",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -909,7 +909,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane6",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -1032,7 +1032,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane7",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -1155,7 +1155,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane8",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -1278,7 +1278,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane9",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -1401,7 +1401,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane10",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -1524,7 +1524,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane11",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -1647,7 +1647,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane12",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -1770,7 +1770,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane13",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -1893,7 +1893,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane14",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -2016,7 +2016,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane15",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -2139,7 +2139,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane16",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -2262,7 +2262,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane17",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -2385,7 +2385,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane18",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -2508,7 +2508,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane19",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -2631,7 +2631,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane20",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -2754,7 +2754,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane21",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -2877,7 +2877,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane22",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -3000,7 +3000,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane23",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -3123,7 +3123,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane24",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -3246,7 +3246,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane25",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -3369,7 +3369,7 @@
   {
     "__type__": "cc.Node",
     "_name": "plane26",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 5
     },
@@ -3492,7 +3492,7 @@
   {
     "__type__": "cc.Node",
     "_name": "taxi07",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 1
     },
@@ -3546,7 +3546,7 @@
   {
     "__type__": "cc.Node",
     "_name": "RootNode",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 110
     },
@@ -3636,7 +3636,7 @@
   {
     "__type__": "cc.Node",
     "_name": "passat",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 111
     },
@@ -3731,7 +3731,7 @@
   {
     "__type__": "cc.Node",
     "_name": "light1",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 111
     },
@@ -3826,7 +3826,7 @@
   {
     "__type__": "cc.Node",
     "_name": "tyre2",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 111
     },
@@ -3921,7 +3921,7 @@
   {
     "__type__": "cc.Node",
     "_name": "tyre4",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 111
     },
@@ -4016,7 +4016,7 @@
   {
     "__type__": "cc.Node",
     "_name": "tyre1",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 111
     },
@@ -4111,7 +4111,7 @@
   {
     "__type__": "cc.Node",
     "_name": "tyre3",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 111
     },
@@ -4206,7 +4206,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Main Camera",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 111
     },
@@ -4293,7 +4293,7 @@
   {
     "__type__": "cc.Node",
     "_name": "WeaponHolder",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 111
     },
@@ -13171,13 +13171,13 @@
     "_center": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0.29,
+      "y": 0.39,
       "z": 0.1
     },
     "_size": {
       "__type__": "cc.Vec3",
       "x": 0.5,
-      "y": 0.3,
+      "y": 0.1,
       "z": 0.6
     },
     "_id": "71lbNyVMVAuIKR3gY8RCrz"
@@ -13296,13 +13296,13 @@
     "_center": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0.3,
-      "z": 0.1
+      "y": 0.25,
+      "z": 0
     },
     "_size": {
       "__type__": "cc.Vec3",
-      "x": 0.6,
-      "y": 0.1,
+      "x": 0.45,
+      "y": 0.3,
       "z": 1.3
     },
     "_id": "77evvjOe9PZ7zLE7SYu7W4"
@@ -13356,7 +13356,7 @@
   {
     "__type__": "cc.Node",
     "_name": "TestCollider",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 1
     },
@@ -13421,7 +13421,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Capsule",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 408
     },
@@ -13541,7 +13541,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Capsule-001",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 408
     },
@@ -13661,7 +13661,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Capsule-002",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 408
     },
@@ -13781,7 +13781,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Capsule-003",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 408
     },
@@ -13901,7 +13901,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Capsule-004",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 408
     },
@@ -14021,7 +14021,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Capsule-005",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 408
     },
@@ -14141,7 +14141,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Capsule-006",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 408
     },
@@ -14261,7 +14261,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Capsule-007",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 408
     },
@@ -14381,7 +14381,7 @@
   {
     "__type__": "cc.Node",
     "_name": "GroundItemHolder",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 1
     },
@@ -14507,7 +14507,7 @@
       "z": 1
     },
     "_mobility": 0,
-    "_layer": 1073741824,
+    "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -14551,7 +14551,7 @@
       "z": 1
     },
     "_mobility": 0,
-    "_layer": 1073741824,
+    "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
