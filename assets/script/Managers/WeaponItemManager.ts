@@ -19,7 +19,7 @@ export class WeaponItemManager extends Component {
   @property({ type: Prefab })
   CannonBall: Prefab = null;
   @property({ type: Prefab })
-  Knife: Prefab = null;
+  Missile: Prefab = null;
   @property({ type: Prefab })
   Bomb: Prefab = null;
   @property({ type: Node })
@@ -37,8 +37,8 @@ export class WeaponItemManager extends Component {
       case "Cannon":
         prefab = this.CannonBall;
         break;
-      case "Knife":
-        prefab = this.Knife;
+      case "Missile":
+        prefab = this.Missile;
         break;
       case "Bomb":
         prefab = this.Bomb;

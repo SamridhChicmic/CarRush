@@ -4,7 +4,7 @@
     "Weapon": "Gun",
     "Power": "20",
     "Node": 5,
-    "Velocity": 100
+    "Velocity": 50
   },
   {
     "Name": "PowerBoxTorus",
@@ -15,10 +15,10 @@
   },
   {
     "Name": "PowerBoxSphare",
-    "Weapon": "Knife",
+    "Weapon": "Missile",
     "Power": "10",
     "Node": 1,
-    "Velocity": 50
+    "Velocity": 100
   },
   {
     "Name": "PowerBoxCylinder",

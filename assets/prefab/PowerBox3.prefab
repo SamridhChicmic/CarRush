@@ -180,6 +180,24 @@
     "__prefab": {
       "__id__": 10
     },
+    "WeaponBox": [
+      {
+        "__uuid__": "8fc3dec6-0aff-4af1-bed0-58900fc36bdb",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "f258efcc-643f-492c-b5d5-3258a1b3ab23",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "1620e637-df81-4fe8-992b-d1e4fc966803",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "8a7cb7bb-c87f-4a3a-9b2b-eb36fc989327",
+        "__expectedType__": "cc.Prefab"
+      }
+    ],
     "_id": ""
   },
   {

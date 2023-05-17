@@ -1,0 +1,108 @@
+{
+  "ver": "2.3.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "be18835a-33cb-4dec-a892-fc173f701bb9",
+  "files": [],
+  "subMetas": {
+    "92950": {
+      "importer": "gltf-mesh",
+      "uuid": "be18835a-33cb-4dec-a892-fc173f701bb9@92950",
+      "displayName": "",
+      "id": "92950",
+      "name": "models/weapons/w_eq_c4.056.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d41fa": {
+      "importer": "texture",
+      "uuid": "be18835a-33cb-4dec-a892-fc173f701bb9@d41fa",
+      "displayName": "",
+      "id": "d41fa",
+      "name": "specular_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/resources/Explosive/source"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f17ff": {
+      "importer": "gltf-material",
+      "uuid": "be18835a-33cb-4dec-a892-fc173f701bb9@f17ff",
+      "displayName": "",
+      "id": "f17ff",
+      "name": "materials/models/weapons/w_models/w_c4/c4.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c8d6a": {
+      "importer": "gltf-scene",
+      "uuid": "be18835a-33cb-4dec-a892-fc173f701bb9@c8d6a",
+      "displayName": "",
+      "id": "c8d6a",
+      "name": "C4-1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "specular_texture",
+        "uri": "db://assets/resources/Explosive/source"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "be18835a-33cb-4dec-a892-fc173f701bb9@c8d6a",
+    "assetFinder": {
+      "meshes": [
+        "be18835a-33cb-4dec-a892-fc173f701bb9@92950"
+      ],
+      "skeletons": [],
+      "textures": [
+        "be18835a-33cb-4dec-a892-fc173f701bb9@d41fa"
+      ],
+      "materials": [
+        "be18835a-33cb-4dec-a892-fc173f701bb9@f17ff"
+      ],
+      "scenes": [
+        "be18835a-33cb-4dec-a892-fc173f701bb9@c8d6a"
+      ]
+    }
+  }
+}

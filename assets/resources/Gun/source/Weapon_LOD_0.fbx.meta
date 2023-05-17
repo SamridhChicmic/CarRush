@@ -1,0 +1,1608 @@
+{
+  "ver": "2.3.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153",
+  "files": [],
+  "subMetas": {
+    "16804": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@16804",
+      "displayName": "",
+      "id": "16804",
+      "name": "Little_Handle_LP.mesh",
+      "userData": {
+        "gltfIndex": 66
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "54284": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@54284",
+      "displayName": "",
+      "id": "54284",
+      "name": "Rear_Screw_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 74
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "98582": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@98582",
+      "displayName": "",
+      "id": "98582",
+      "name": "Handguard_Liner_Cylinder_8_LP.mesh",
+      "userData": {
+        "gltfIndex": 39
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "da977": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@da977",
+      "displayName": "",
+      "id": "da977",
+      "name": "Handguard_LP.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "20e0c": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@20e0c",
+      "displayName": "",
+      "id": "20e0c",
+      "name": "Magazine_LP.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "85a1e": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@85a1e",
+      "displayName": "",
+      "id": "85a1e",
+      "name": "Barrel_Connection_LP.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "adc98": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@adc98",
+      "displayName": "",
+      "id": "adc98",
+      "name": "Barrel_LP.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "194dd": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@194dd",
+      "displayName": "",
+      "id": "194dd",
+      "name": "Handguard_Screw_3_LP.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea81b": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@ea81b",
+      "displayName": "",
+      "id": "ea81b",
+      "name": "Handguard_Attachment_4_LP.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c0de3": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@c0de3",
+      "displayName": "",
+      "id": "c0de3",
+      "name": "Handguard_Attachment_Screw_Ring_LP.mesh",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d5be2": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@d5be2",
+      "displayName": "",
+      "id": "d5be2",
+      "name": "Handguard_Attachment_5_LP.mesh",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dfd69": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@dfd69",
+      "displayName": "",
+      "id": "dfd69",
+      "name": "Handguard_Attachment_6_LP.mesh",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "344be": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@344be",
+      "displayName": "",
+      "id": "344be",
+      "name": "Handguard_Attachment_7_LP.mesh",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8c815": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@8c815",
+      "displayName": "",
+      "id": "8c815",
+      "name": "Trigger_Part_LP.mesh",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fea5c": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@fea5c",
+      "displayName": "",
+      "id": "fea5c",
+      "name": "Trigger_LP.mesh",
+      "userData": {
+        "gltfIndex": 11
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6e583": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@6e583",
+      "displayName": "",
+      "id": "6e583",
+      "name": "Trigger_Guard_LP.mesh",
+      "userData": {
+        "gltfIndex": 12
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cd1e1": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@cd1e1",
+      "displayName": "",
+      "id": "cd1e1",
+      "name": "Handguard_Lower_Liner_3_LP.mesh",
+      "userData": {
+        "gltfIndex": 13
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2329a": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@2329a",
+      "displayName": "",
+      "id": "2329a",
+      "name": "Handguard_Screw_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 14
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "efd22": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@efd22",
+      "displayName": "",
+      "id": "efd22",
+      "name": "Handguard_Attachment_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 15
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4197": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@b4197",
+      "displayName": "",
+      "id": "b4197",
+      "name": "Handguard_Attachment_3_LP.mesh",
+      "userData": {
+        "gltfIndex": 16
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a93f4": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@a93f4",
+      "displayName": "",
+      "id": "a93f4",
+      "name": "Handguard_Attachment_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 17
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cd9eb": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@cd9eb",
+      "displayName": "",
+      "id": "cd9eb",
+      "name": "Handguard_Lower_Liner_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 18
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0f9d3": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@0f9d3",
+      "displayName": "",
+      "id": "0f9d3",
+      "name": "Handguard_Lower_Liner_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 19
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2db3": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@a2db3",
+      "displayName": "",
+      "id": "a2db3",
+      "name": "Handguard_Screw_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 20
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "239a6": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@239a6",
+      "displayName": "",
+      "id": "239a6",
+      "name": "Connector_Rear_Wraparound_LP.mesh",
+      "userData": {
+        "gltfIndex": 21
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "16d33": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@16d33",
+      "displayName": "",
+      "id": "16d33",
+      "name": "Connector_Rear_LP.mesh",
+      "userData": {
+        "gltfIndex": 22
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a997d": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@a997d",
+      "displayName": "",
+      "id": "a997d",
+      "name": "Chamber_Vent_LP.mesh",
+      "userData": {
+        "gltfIndex": 23
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "55ea0": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@55ea0",
+      "displayName": "",
+      "id": "55ea0",
+      "name": "Chambers_Connector_LP.mesh",
+      "userData": {
+        "gltfIndex": 24
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9e269": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@9e269",
+      "displayName": "",
+      "id": "9e269",
+      "name": "Chamber_Large_Main_Screw_Attachment_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 25
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e19f3": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@e19f3",
+      "displayName": "",
+      "id": "e19f3",
+      "name": "Chamber_Large_Main_Screw_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 26
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9ecc2": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@9ecc2",
+      "displayName": "",
+      "id": "9ecc2",
+      "name": "Chamber_Large_Screw_Attachment_LP.mesh",
+      "userData": {
+        "gltfIndex": 27
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d066f": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@d066f",
+      "displayName": "",
+      "id": "d066f",
+      "name": "Chamber_Large_Screw_LP.mesh",
+      "userData": {
+        "gltfIndex": 28
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c11e2": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@c11e2",
+      "displayName": "",
+      "id": "c11e2",
+      "name": "Chamber_Large_Main_Screw_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 29
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4cde8": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@4cde8",
+      "displayName": "",
+      "id": "4cde8",
+      "name": "Chamber_Large_Main_Screw_Attachment_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 30
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce3bb": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@ce3bb",
+      "displayName": "",
+      "id": "ce3bb",
+      "name": "Chamber_Large_LP.mesh",
+      "userData": {
+        "gltfIndex": 31
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "79e8c": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@79e8c",
+      "displayName": "",
+      "id": "79e8c",
+      "name": "Chamber_Small_Screw_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 32
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4ec0": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@f4ec0",
+      "displayName": "",
+      "id": "f4ec0",
+      "name": "Chamber_Small_Screw_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 33
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d92f8": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@d92f8",
+      "displayName": "",
+      "id": "d92f8",
+      "name": "Chamber_Small_LP.mesh",
+      "userData": {
+        "gltfIndex": 34
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "198ba": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@198ba",
+      "displayName": "",
+      "id": "198ba",
+      "name": "Liner_Rear_Vent_Cylinder_LP.mesh",
+      "userData": {
+        "gltfIndex": 35
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d353": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@8d353",
+      "displayName": "",
+      "id": "8d353",
+      "name": "Front_Scope_Box_Dial_LP.mesh",
+      "userData": {
+        "gltfIndex": 36
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e5c90": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@e5c90",
+      "displayName": "",
+      "id": "e5c90",
+      "name": "Front_Scope_Box_Cylinder_LP.mesh",
+      "userData": {
+        "gltfIndex": 37
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "627dc": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@627dc",
+      "displayName": "",
+      "id": "627dc",
+      "name": "Front_Scope_Box_LP.mesh",
+      "userData": {
+        "gltfIndex": 38
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "349d0": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@349d0",
+      "displayName": "",
+      "id": "349d0",
+      "name": "Handguard_Liner_Cylinder_7_LP.mesh",
+      "userData": {
+        "gltfIndex": 40
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2ef52": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@2ef52",
+      "displayName": "",
+      "id": "2ef52",
+      "name": "Handguard_Liner_Cylinder_6_LP.mesh",
+      "userData": {
+        "gltfIndex": 41
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "595f8": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@595f8",
+      "displayName": "",
+      "id": "595f8",
+      "name": "Handguard_Liner_Cylinder_5_LP.mesh",
+      "userData": {
+        "gltfIndex": 42
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ce0aa": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@ce0aa",
+      "displayName": "",
+      "id": "ce0aa",
+      "name": "Handguard_Liner_Cylinder_Screw_LP.mesh",
+      "userData": {
+        "gltfIndex": 43
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c311a": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@c311a",
+      "displayName": "",
+      "id": "c311a",
+      "name": "Handguard_Liner_Cylinder_Cut_LP.mesh",
+      "userData": {
+        "gltfIndex": 44
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9f348": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@9f348",
+      "displayName": "",
+      "id": "9f348",
+      "name": "Handguard_Liner_Cylinder_4_LP.mesh",
+      "userData": {
+        "gltfIndex": 45
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2db8d": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@2db8d",
+      "displayName": "",
+      "id": "2db8d",
+      "name": "Handguard_Liner_Cylinder_3_LP.mesh",
+      "userData": {
+        "gltfIndex": 46
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "330bd": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@330bd",
+      "displayName": "",
+      "id": "330bd",
+      "name": "Handguard_Liner_Cylinder_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 47
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d04c0": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@d04c0",
+      "displayName": "",
+      "id": "d04c0",
+      "name": "Handguard_Liner_Cylinder_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 48
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ea838": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@ea838",
+      "displayName": "",
+      "id": "ea838",
+      "name": "Rear_Scope_Box_LP.mesh",
+      "userData": {
+        "gltfIndex": 49
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1df40": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@1df40",
+      "displayName": "",
+      "id": "1df40",
+      "name": "Rear_Scope_Box_Dial_LP.mesh",
+      "userData": {
+        "gltfIndex": 50
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9558a": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@9558a",
+      "displayName": "",
+      "id": "9558a",
+      "name": "Rear_Scope_Box_Cylinder_LP.mesh",
+      "userData": {
+        "gltfIndex": 51
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "849e3": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@849e3",
+      "displayName": "",
+      "id": "849e3",
+      "name": "Handguard_Liner_LP.mesh",
+      "userData": {
+        "gltfIndex": 52
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b20c": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@6b20c",
+      "displayName": "",
+      "id": "6b20c",
+      "name": "Bronze_Attachment_LP.mesh",
+      "userData": {
+        "gltfIndex": 53
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7fad": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@a7fad",
+      "displayName": "",
+      "id": "a7fad",
+      "name": "Liner_Rear_Loop_LP.mesh",
+      "userData": {
+        "gltfIndex": 54
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c91c": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@0c91c",
+      "displayName": "",
+      "id": "0c91c",
+      "name": "Liner_Rear_Box_LP.mesh",
+      "userData": {
+        "gltfIndex": 55
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09dbf": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@09dbf",
+      "displayName": "",
+      "id": "09dbf",
+      "name": "Liner_Rear_Vent_Attachment_LP.mesh",
+      "userData": {
+        "gltfIndex": 56
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d56f5": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@d56f5",
+      "displayName": "",
+      "id": "d56f5",
+      "name": "Liner_Rear_Vent_LP.mesh",
+      "userData": {
+        "gltfIndex": 57
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ead4e": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@ead4e",
+      "displayName": "",
+      "id": "ead4e",
+      "name": "Handle_Screw_Attachment_LP.mesh",
+      "userData": {
+        "gltfIndex": 58
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d2dac": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@d2dac",
+      "displayName": "",
+      "id": "d2dac",
+      "name": "Handle_Screw_LP.mesh",
+      "userData": {
+        "gltfIndex": 59
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "58e5c": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@58e5c",
+      "displayName": "",
+      "id": "58e5c",
+      "name": "Handle_Attachment_LP.mesh",
+      "userData": {
+        "gltfIndex": 60
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f6cd5": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@f6cd5",
+      "displayName": "",
+      "id": "f6cd5",
+      "name": "Handle_Trigger_Guard_LP.mesh",
+      "userData": {
+        "gltfIndex": 61
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3c37c": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@3c37c",
+      "displayName": "",
+      "id": "3c37c",
+      "name": "Handle_LP.mesh",
+      "userData": {
+        "gltfIndex": 62
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "744f5": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@744f5",
+      "displayName": "",
+      "id": "744f5",
+      "name": "Butt_Plate_LP.mesh",
+      "userData": {
+        "gltfIndex": 63
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bfcfe": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@bfcfe",
+      "displayName": "",
+      "id": "bfcfe",
+      "name": "Stock_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 64
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ada36": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@ada36",
+      "displayName": "",
+      "id": "ada36",
+      "name": "Stock_2_Extension_LP.mesh",
+      "userData": {
+        "gltfIndex": 65
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a3102": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@a3102",
+      "displayName": "",
+      "id": "a3102",
+      "name": "Rear_Handle_LP.mesh",
+      "userData": {
+        "gltfIndex": 67
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a6573": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@a6573",
+      "displayName": "",
+      "id": "a6573",
+      "name": "Stock_Vent_LP.mesh",
+      "userData": {
+        "gltfIndex": 68
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fb790": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@fb790",
+      "displayName": "",
+      "id": "fb790",
+      "name": "Stock_Vent_Attachment_LP.mesh",
+      "userData": {
+        "gltfIndex": 69
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b0979": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@b0979",
+      "displayName": "",
+      "id": "b0979",
+      "name": "Stock_Guard_LP.mesh",
+      "userData": {
+        "gltfIndex": 70
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f85d": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@4f85d",
+      "displayName": "",
+      "id": "4f85d",
+      "name": "Rear_Screw_Attachment_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 71
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2084f": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@2084f",
+      "displayName": "",
+      "id": "2084f",
+      "name": "Rear_Screw_2_LP.mesh",
+      "userData": {
+        "gltfIndex": 72
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "13a76": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@13a76",
+      "displayName": "",
+      "id": "13a76",
+      "name": "Rear_Screw_Attachment_1_LP.mesh",
+      "userData": {
+        "gltfIndex": 73
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eff5b": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@eff5b",
+      "displayName": "",
+      "id": "eff5b",
+      "name": "Rear_Connector_LP.mesh",
+      "userData": {
+        "gltfIndex": 75
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "94a03": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@94a03",
+      "displayName": "",
+      "id": "94a03",
+      "name": "Rear_Scope_Bar_Adjusters_LP.mesh",
+      "userData": {
+        "gltfIndex": 76
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "67ca0": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@67ca0",
+      "displayName": "",
+      "id": "67ca0",
+      "name": "Rear_Scope_Adjusters_LP.mesh",
+      "userData": {
+        "gltfIndex": 77
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ee769": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@ee769",
+      "displayName": "",
+      "id": "ee769",
+      "name": "Rear_Scope_Inner_LP.mesh",
+      "userData": {
+        "gltfIndex": 78
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1b1d4": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@1b1d4",
+      "displayName": "",
+      "id": "1b1d4",
+      "name": "Rear_Scope_Outer_LP.mesh",
+      "userData": {
+        "gltfIndex": 79
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f02b8": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@f02b8",
+      "displayName": "",
+      "id": "f02b8",
+      "name": "Rear_Scope_Attachment_Bar_LP.mesh",
+      "userData": {
+        "gltfIndex": 80
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "01266": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@01266",
+      "displayName": "",
+      "id": "01266",
+      "name": "Rear_Scope_Attachment_LP.mesh",
+      "userData": {
+        "gltfIndex": 81
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed8f5": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@ed8f5",
+      "displayName": "",
+      "id": "ed8f5",
+      "name": "Front_Scope_Attachment_Bar_LP.mesh",
+      "userData": {
+        "gltfIndex": 82
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49f36": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@49f36",
+      "displayName": "",
+      "id": "49f36",
+      "name": "Front_Scope_Attachment_LP.mesh",
+      "userData": {
+        "gltfIndex": 83
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f04fb": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@f04fb",
+      "displayName": "",
+      "id": "f04fb",
+      "name": "Front_Scope_LP.mesh",
+      "userData": {
+        "gltfIndex": 84
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f2474": {
+      "importer": "gltf-mesh",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@f2474",
+      "displayName": "",
+      "id": "f2474",
+      "name": "Crosshair_LP.mesh",
+      "userData": {
+        "gltfIndex": 85
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d883": {
+      "importer": "gltf-material",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@8d883",
+      "displayName": "",
+      "id": "8d883",
+      "name": "lambert1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "34a4e": {
+      "importer": "gltf-scene",
+      "uuid": "b3258bdf-9b65-4406-a504-cd65a4abd153@34a4e",
+      "displayName": "",
+      "id": "34a4e",
+      "name": "Weapon_LOD_0.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "b3258bdf-9b65-4406-a504-cd65a4abd153@34a4e",
+    "assetFinder": {
+      "meshes": [
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@da977",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@20e0c",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@85a1e",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@adc98",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@194dd",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@ea81b",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@c0de3",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@d5be2",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@dfd69",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@344be",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@8c815",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@fea5c",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@6e583",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@cd1e1",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@2329a",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@efd22",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@b4197",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@a93f4",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@cd9eb",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@0f9d3",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@a2db3",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@239a6",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@16d33",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@a997d",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@55ea0",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@9e269",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@e19f3",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@9ecc2",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@d066f",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@c11e2",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@4cde8",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@ce3bb",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@79e8c",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@f4ec0",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@d92f8",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@198ba",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@8d353",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@e5c90",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@627dc",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@98582",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@349d0",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@2ef52",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@595f8",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@ce0aa",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@c311a",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@9f348",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@2db8d",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@330bd",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@d04c0",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@ea838",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@1df40",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@9558a",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@849e3",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@6b20c",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@a7fad",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@0c91c",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@09dbf",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@d56f5",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@ead4e",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@d2dac",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@58e5c",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@f6cd5",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@3c37c",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@744f5",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@bfcfe",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@ada36",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@16804",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@a3102",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@a6573",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@fb790",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@b0979",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@4f85d",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@2084f",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@13a76",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@54284",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@eff5b",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@94a03",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@67ca0",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@ee769",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@1b1d4",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@f02b8",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@01266",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@ed8f5",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@49f36",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@f04fb",
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@f2474"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@8d883"
+      ],
+      "scenes": [
+        "b3258bdf-9b65-4406-a504-cd65a4abd153@34a4e"
+      ]
+    }
+  }
+}

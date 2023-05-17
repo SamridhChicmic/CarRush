@@ -24,22 +24,22 @@
         "__id__": 110
       },
       {
-        "__id__": 142
+        "__id__": 143
       },
       {
-        "__id__": 175
+        "__id__": 176
       },
       {
-        "__id__": 177
+        "__id__": 178
       },
       {
-        "__id__": 190
+        "__id__": 191
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 193
+      "__id__": 194
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -70,7 +70,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 194
+      "__id__": 195
     },
     "_id": "576c4d93-ddd6-4a53-8351-9ebd6cf0f04d"
   },
@@ -3504,13 +3504,13 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 139
-      },
-      {
         "__id__": 140
       },
       {
         "__id__": 141
+      },
+      {
+        "__id__": 142
       }
     ],
     "_prefab": null,
@@ -3571,13 +3571,13 @@
       },
       {
         "__id__": 130
+      },
+      {
+        "__id__": 132
       }
     ],
     "_active": true,
     "_components": [
-      {
-        "__id__": 132
-      },
       {
         "__id__": 133
       },
@@ -3595,6 +3595,9 @@
       },
       {
         "__id__": 138
+      },
+      {
+        "__id__": 139
       }
     ],
     "_prefab": null,
@@ -4285,6 +4288,46 @@
     "_id": "7dWQTpwS5LrIHnc1zAPUtf"
   },
   {
+    "__type__": "cc.Node",
+    "_name": "WeaponHolder",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 111
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0.511,
+      "z": 0.07
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "29EEnL+1xC/YIpSM5Qs04V"
+  },
+  {
     "__type__": "cc.RigidBody",
     "_name": "",
     "_objFlags": 0,
@@ -4505,6 +4548,9 @@
     },
     "_enabled": true,
     "__prefab": null,
+    "WeaponHolder": {
+      "__id__": 132
+    },
     "_id": "4efk8/c4tHR6JmulTxYX+Q"
   },
   {
@@ -4516,28 +4562,28 @@
     },
     "_children": [
       {
-        "__id__": 143
+        "__id__": 144
       },
       {
-        "__id__": 147
+        "__id__": 148
       },
       {
-        "__id__": 151
+        "__id__": 152
       },
       {
-        "__id__": 155
+        "__id__": 156
       },
       {
-        "__id__": 159
+        "__id__": 160
       },
       {
-        "__id__": 163
+        "__id__": 164
       },
       {
-        "__id__": 167
+        "__id__": 168
       },
       {
-        "__id__": 171
+        "__id__": 172
       }
     ],
     "_active": true,
@@ -4577,16 +4623,16 @@
     "_name": "Capsule",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 142
+      "__id__": 143
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 144
+        "__id__": 145
       },
       {
-        "__id__": 146
+        "__id__": 147
       }
     ],
     "_prefab": null,
@@ -4624,7 +4670,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 143
+      "__id__": 144
     },
     "_enabled": true,
     "__prefab": null,
@@ -4636,7 +4682,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 145
+      "__id__": 146
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
@@ -4675,7 +4721,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 143
+      "__id__": 144
     },
     "_enabled": true,
     "__prefab": null,
@@ -4697,16 +4743,16 @@
     "_name": "Capsule-001",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 142
+      "__id__": 143
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 148
+        "__id__": 149
       },
       {
-        "__id__": 150
+        "__id__": 151
       }
     ],
     "_prefab": null,
@@ -4744,7 +4790,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 147
+      "__id__": 148
     },
     "_enabled": true,
     "__prefab": null,
@@ -4756,7 +4802,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 149
+      "__id__": 150
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
@@ -4795,7 +4841,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 147
+      "__id__": 148
     },
     "_enabled": true,
     "__prefab": null,
@@ -4817,16 +4863,16 @@
     "_name": "Capsule-002",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 142
+      "__id__": 143
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 152
+        "__id__": 153
       },
       {
-        "__id__": 154
+        "__id__": 155
       }
     ],
     "_prefab": null,
@@ -4864,7 +4910,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 151
+      "__id__": 152
     },
     "_enabled": true,
     "__prefab": null,
@@ -4876,7 +4922,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 153
+      "__id__": 154
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
@@ -4915,7 +4961,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 151
+      "__id__": 152
     },
     "_enabled": true,
     "__prefab": null,
@@ -4937,16 +4983,16 @@
     "_name": "Capsule-003",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 142
+      "__id__": 143
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 156
+        "__id__": 157
       },
       {
-        "__id__": 158
+        "__id__": 159
       }
     ],
     "_prefab": null,
@@ -4984,7 +5030,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 155
+      "__id__": 156
     },
     "_enabled": true,
     "__prefab": null,
@@ -4996,7 +5042,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 157
+      "__id__": 158
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
@@ -5035,7 +5081,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 155
+      "__id__": 156
     },
     "_enabled": true,
     "__prefab": null,
@@ -5057,16 +5103,16 @@
     "_name": "Capsule-004",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 142
+      "__id__": 143
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 160
+        "__id__": 161
       },
       {
-        "__id__": 162
+        "__id__": 163
       }
     ],
     "_prefab": null,
@@ -5104,7 +5150,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 159
+      "__id__": 160
     },
     "_enabled": true,
     "__prefab": null,
@@ -5116,7 +5162,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 161
+      "__id__": 162
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
@@ -5155,7 +5201,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 159
+      "__id__": 160
     },
     "_enabled": true,
     "__prefab": null,
@@ -5177,16 +5223,16 @@
     "_name": "Capsule-005",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 142
+      "__id__": 143
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 164
+        "__id__": 165
       },
       {
-        "__id__": 166
+        "__id__": 167
       }
     ],
     "_prefab": null,
@@ -5224,7 +5270,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 163
+      "__id__": 164
     },
     "_enabled": true,
     "__prefab": null,
@@ -5236,7 +5282,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 165
+      "__id__": 166
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
@@ -5275,7 +5321,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 163
+      "__id__": 164
     },
     "_enabled": true,
     "__prefab": null,
@@ -5297,16 +5343,16 @@
     "_name": "Capsule-006",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 142
+      "__id__": 143
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 168
+        "__id__": 169
       },
       {
-        "__id__": 170
+        "__id__": 171
       }
     ],
     "_prefab": null,
@@ -5344,7 +5390,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 167
+      "__id__": 168
     },
     "_enabled": true,
     "__prefab": null,
@@ -5356,7 +5402,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 169
+      "__id__": 170
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
@@ -5395,7 +5441,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 167
+      "__id__": 168
     },
     "_enabled": true,
     "__prefab": null,
@@ -5417,16 +5463,16 @@
     "_name": "Capsule-007",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 142
+      "__id__": 143
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 172
+        "__id__": 173
       },
       {
-        "__id__": 174
+        "__id__": 175
       }
     ],
     "_prefab": null,
@@ -5464,7 +5510,7 @@
     "_name": "Capsule<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 171
+      "__id__": 172
     },
     "_enabled": true,
     "__prefab": null,
@@ -5476,7 +5522,7 @@
     ],
     "_visFlags": 0,
     "bakeSettings": {
-      "__id__": 173
+      "__id__": 174
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
@@ -5515,7 +5561,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 171
+      "__id__": 172
     },
     "_enabled": true,
     "__prefab": null,
@@ -5543,7 +5589,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 176
+        "__id__": 177
       }
     ],
     "_prefab": null,
@@ -5581,7 +5627,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 175
+      "__id__": 176
     },
     "_enabled": true,
     "__prefab": null,
@@ -5622,22 +5668,22 @@
     },
     "_children": [
       {
-        "__id__": 178
+        "__id__": 179
       },
       {
-        "__id__": 180
+        "__id__": 181
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 187
-      },
-      {
         "__id__": 188
       },
       {
         "__id__": 189
+      },
+      {
+        "__id__": 190
       }
     ],
     "_prefab": null,
@@ -5675,13 +5721,13 @@
     "_name": "Camera",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 177
+      "__id__": 178
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 179
+        "__id__": 180
       }
     ],
     "_prefab": null,
@@ -5719,7 +5765,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 178
+      "__id__": 179
     },
     "_enabled": true,
     "__prefab": null,
@@ -5762,23 +5808,23 @@
     "_name": "WeaponDisplay",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 177
+      "__id__": 178
     },
     "_children": [
       {
-        "__id__": 181
+        "__id__": 182
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 184
-      },
-      {
         "__id__": 185
       },
       {
         "__id__": 186
+      },
+      {
+        "__id__": 187
       }
     ],
     "_prefab": null,
@@ -5816,16 +5862,16 @@
     "_name": "Name",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 180
+      "__id__": 181
     },
     "_children": [],
     "_active": true,
     "_components": [
       {
-        "__id__": 182
+        "__id__": 183
       },
       {
-        "__id__": 183
+        "__id__": 184
       }
     ],
     "_prefab": null,
@@ -5863,7 +5909,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 181
+      "__id__": 182
     },
     "_enabled": true,
     "__prefab": null,
@@ -5884,7 +5930,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 181
+      "__id__": 182
     },
     "_enabled": true,
     "__prefab": null,
@@ -5922,7 +5968,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 180
+      "__id__": 181
     },
     "_enabled": true,
     "__prefab": null,
@@ -5943,7 +5989,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 180
+      "__id__": 181
     },
     "_enabled": true,
     "__prefab": null,
@@ -5981,12 +6027,12 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 180
+      "__id__": 181
     },
     "_enabled": true,
     "__prefab": null,
     "WeaponName": {
-      "__id__": 183
+      "__id__": 184
     },
     "CarNode": {
       "__id__": 110
@@ -5998,7 +6044,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 177
+      "__id__": 178
     },
     "_enabled": true,
     "__prefab": null,
@@ -6019,12 +6065,12 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 177
+      "__id__": 178
     },
     "_enabled": true,
     "__prefab": null,
     "_cameraComponent": {
-      "__id__": 179
+      "__id__": 180
     },
     "_alignCanvasWithScreen": true,
     "_id": "9fduQirApNdLuHH1GApSjB"
@@ -6034,7 +6080,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 177
+      "__id__": 178
     },
     "_enabled": true,
     "__prefab": null,
@@ -6069,10 +6115,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 191
+        "__id__": 192
       },
       {
-        "__id__": 192
+        "__id__": 193
       }
     ],
     "_prefab": null,
@@ -6110,7 +6156,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 190
+      "__id__": 191
     },
     "_enabled": true,
     "__prefab": null,
@@ -6131,7 +6177,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 190
+      "__id__": 191
     },
     "_enabled": true,
     "__prefab": null,
@@ -6143,7 +6189,7 @@
       "__uuid__": "f0f406aa-e715-4fd7-aba8-9544ef45321e",
       "__expectedType__": "cc.Prefab"
     },
-    "Knife": {
+    "Missile": {
       "__uuid__": "6c691f27-001a-43b8-84a5-9a052669bd61",
       "__expectedType__": "cc.Prefab"
     },
@@ -6167,22 +6213,22 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 195
-    },
-    "shadows": {
       "__id__": 196
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 197
     },
-    "fog": {
+    "_skybox": {
       "__id__": 198
     },
-    "octree": {
+    "fog": {
       "__id__": 199
     },
-    "lightProbeInfo": {
+    "octree": {
       "__id__": 200
+    },
+    "lightProbeInfo": {
+      "__id__": 201
     },
     "bakedWithStationaryMainLight": false
   },

@@ -7,7 +7,8 @@ export class PowerBoxManager {
   JsonPositionArray = [];
   WeaponInUsed: boolean = null;
   CurrentCarPowerBox = null;
-  PowerBoxForUse=null;
+  PowerBoxForUse = null;
+  WeaponHolder = null;
   static getInstance(): PowerBoxManager {
     if (!PowerBoxManager._instance) {
       PowerBoxManager._instance = new PowerBoxManager();
