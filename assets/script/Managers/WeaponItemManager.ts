@@ -27,7 +27,7 @@ export class WeaponItemManager extends Component {
   start() {
     this.PowerBoxMng = PowerBoxManager.getInstance();
   }
-  addbullets(PowerBoxWeapon) {
+  weaponShoot(PowerBoxWeapon) {
     let prefab;
 
     switch (PowerBoxWeapon.Weapon) {
@@ -71,7 +71,7 @@ export class WeaponItemManager extends Component {
   update(deltaTime: number) {
     if (this.PowerBoxMng.WeaponInUsed == true) {
       console.log("WEAPON SHOOT", this.PowerBoxMng.PowerBoxForUse);
-      this.addbullets(this.PowerBoxMng.PowerBoxForUse);
+      this.weaponShoot(this.PowerBoxMng.PowerBoxForUse);
       this.PowerBoxMng.WeaponInUsed = false;
     }
   }

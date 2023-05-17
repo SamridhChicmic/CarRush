@@ -7,12 +7,9 @@ export class GunBallScript extends Component {
   start() {
     this.BallCollider = this.node.getComponent(SphereCollider);
     this.BallCollider.on(
-      "onCollisionStay",
+      "onCollisionEnter",
       (EventType) => {
-        console.log(EventType.otherCollider.name);
         if (EventType.otherCollider.name != "GunBall<SphereCollider>") {
-          console.log("Gun Ball Destroy");
-
           this.node.destroy();
         }
       },
