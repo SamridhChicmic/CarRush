@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "Explosive",
+    "_name": "Explosive2",
     "_objFlags": 0,
     "_native": "",
     "data": {
@@ -12,7 +12,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "Explosive",
+    "_name": "Explosive2",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": null,
@@ -41,9 +41,9 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 0.05,
-      "y": 0.05,
-      "z": 0.05
+      "x": 8,
+      "y": 5,
+      "z": 5
     },
     "_mobility": 0,
     "_layer": 1073741824,
@@ -57,7 +57,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "models/weapons/w_eq_c4.001",
+    "_name": "C4",
     "_objFlags": 0,
     "_parent": {
       "__id__": 1
@@ -74,28 +74,28 @@
     },
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
+      "x": 0.000007712250408076216,
+      "y": 0.007258753292262554,
+      "z": 0.00004303365494706668
     },
     "_lrot": {
       "__type__": "cc.Quat",
-      "x": -0.7071068407911908,
+      "x": 0,
       "y": 0,
       "z": 0,
-      "w": 0.7071067215818992
+      "w": 1
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 100,
-      "y": 100,
-      "z": 100
+      "x": 1,
+      "y": 1,
+      "z": 1
     },
     "_mobility": 0,
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": -90.00000965934633,
+      "x": 0,
       "y": 0,
       "z": 0
     },
@@ -114,7 +114,7 @@
     },
     "_materials": [
       {
-        "__uuid__": "be18835a-33cb-4dec-a892-fc173f701bb9@f17ff",
+        "__uuid__": "5f585e75-11f2-4baa-9932-86706e81ef9d@2f11f",
         "__expectedType__": "cc.Material"
       }
     ],
@@ -123,7 +123,7 @@
       "__id__": 5
     },
     "_mesh": {
-      "__uuid__": "be18835a-33cb-4dec-a892-fc173f701bb9@92950",
+      "__uuid__": "5f585e75-11f2-4baa-9932-86706e81ef9d@5f82d",
       "__expectedType__": "cc.Mesh"
     },
     "_shadowCastingMode": 0,
@@ -135,7 +135,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "74auVrlgZZyo5HYHwg4JeZ"
+    "fileId": "ec1EKTsp1KEo8RnXtEi+XT"
   },
   {
     "__type__": "cc.ModelBakeSettings",
@@ -166,7 +166,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "fcsXUZHUBV0Lv7VBg1oL9V",
+    "fileId": "a22adOCShF44WGm+/zDyBh",
     "instance": null,
     "targetOverrides": null,
     "nestedPrefabInstanceRoots": null
@@ -179,7 +179,8 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "61bdkrv/5eQbjWSGSXkM2j",
+    "fileId": "c8V6rlg2RER5RkghNqMBPG",
+    "instance": null,
     "targetOverrides": null
   }
 ]

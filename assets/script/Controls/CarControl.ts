@@ -84,8 +84,8 @@ export class CarControl extends Component {
   useWeapon() {
     if (this.node.getComponent(Car).CurrentWeaponInfo != null) {
       console.log("Weapon Used");
-      //Here i Know that theres only one childern in weaponholder that why i used children[0]
-      this.PowerBoxMng.WeaponHolder.children[0].destroy();
+      // //Here i Know that theres only one childern in weaponholder that why i used children[0]
+      // this.PowerBoxMng.WeaponHolder.children[0].destroy();
       this.PowerBoxMng.WeaponInUsed = true;
       this.PowerBoxMng.PowerBoxForUse = this.PowerBoxMng.CurrentCarPowerBox;
       this.PowerBoxMng.CurrentCarPowerBox = null;

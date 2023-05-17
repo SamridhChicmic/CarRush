@@ -1,0 +1,355 @@
+{
+  "ver": "2.3.2",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11",
+  "files": [],
+  "subMetas": {
+    "37284": {
+      "importer": "texture",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@37284",
+      "displayName": "",
+      "id": "37284",
+      "name": "normalmap_texture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/resources/Gun2/textures/retaliator_N.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e9172": {
+      "importer": "gltf-mesh",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@e9172",
+      "displayName": "",
+      "id": "e9172",
+      "name": "Retaliator_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "be7e1": {
+      "importer": "gltf-mesh",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@be7e1",
+      "displayName": "",
+      "id": "be7e1",
+      "name": "retaliator.001.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0acd9": {
+      "importer": "gltf-mesh",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@0acd9",
+      "displayName": "",
+      "id": "0acd9",
+      "name": "retaliator.003.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b842": {
+      "importer": "gltf-mesh",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@6b842",
+      "displayName": "",
+      "id": "6b842",
+      "name": "retaliator.002.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9aa2f": {
+      "importer": "gltf-mesh",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@9aa2f",
+      "displayName": "",
+      "id": "9aa2f",
+      "name": "retaliator.004.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "af532": {
+      "importer": "gltf-mesh",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@af532",
+      "displayName": "",
+      "id": "af532",
+      "name": "retaliator.005.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0a1ef": {
+      "importer": "texture",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@0a1ef",
+      "displayName": "",
+      "id": "0a1ef",
+      "name": "base_color_texture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/resources/Gun2/textures/retaliator_D.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1504e": {
+      "importer": "texture",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@1504e",
+      "displayName": "",
+      "id": "1504e",
+      "name": "specular_texture-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/resources/Gun2/textures/retaliator_S.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "97b5c": {
+      "importer": "texture",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@97b5c",
+      "displayName": "",
+      "id": "97b5c",
+      "name": "base_color_texture-3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/resources/Gun2/textures/cups_titan_D.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1cb9": {
+      "importer": "texture",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@c1cb9",
+      "displayName": "",
+      "id": "c1cb9",
+      "name": "normalmap_texture-4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/resources/Gun2/textures/cups_titan_N.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "098ec": {
+      "importer": "texture",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@098ec",
+      "displayName": "",
+      "id": "098ec",
+      "name": "specular_texture-5.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/resources/Gun2/textures/cups_titan_S.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b88e6": {
+      "importer": "gltf-material",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@b88e6",
+      "displayName": "",
+      "id": "b88e6",
+      "name": "Default OBJ.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bb3e9": {
+      "importer": "gltf-material",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@bb3e9",
+      "displayName": "",
+      "id": "bb3e9",
+      "name": "cups.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "591e5": {
+      "importer": "gltf-scene",
+      "uuid": "cf3abcc1-d462-4319-ad5b-540a47f07e11@591e5",
+      "displayName": "",
+      "id": "591e5",
+      "name": "[WR] Retaliator.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/resources/Gun2/textures/retaliator_D.png"
+      },
+      {
+        "name": "normalmap_texture",
+        "uri": "db://assets/resources/Gun2/textures/retaliator_N.png"
+      },
+      {
+        "name": "specular_texture",
+        "uri": "db://assets/resources/Gun2/textures/retaliator_S.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/resources/Gun2/textures/cups_titan_D.png"
+      },
+      {
+        "name": "normalmap_texture",
+        "uri": "db://assets/resources/Gun2/textures/cups_titan_N.png"
+      },
+      {
+        "name": "specular_texture",
+        "uri": "db://assets/resources/Gun2/textures/cups_titan_S.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "cf3abcc1-d462-4319-ad5b-540a47f07e11@591e5",
+    "assetFinder": {
+      "meshes": [
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@e9172",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@be7e1",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@0acd9",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@6b842",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@9aa2f",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@af532"
+      ],
+      "skeletons": [],
+      "textures": [
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@0a1ef",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@37284",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@1504e",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@97b5c",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@c1cb9",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@098ec"
+      ],
+      "materials": [
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@b88e6",
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@bb3e9"
+      ],
+      "scenes": [
+        "cf3abcc1-d462-4319-ad5b-540a47f07e11@591e5"
+      ]
+    }
+  }
+}

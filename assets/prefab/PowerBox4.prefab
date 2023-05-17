@@ -151,7 +151,7 @@
     },
     "WeaponBox": [
       {
-        "__uuid__": "8fc3dec6-0aff-4af1-bed0-58900fc36bdb",
+        "__uuid__": "0586b573-6935-454b-b81a-2c39a8c86acb",
         "__expectedType__": "cc.Prefab"
       },
       {
@@ -163,7 +163,7 @@
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "8a7cb7bb-c87f-4a3a-9b2b-eb36fc989327",
+        "__uuid__": "443597e8-cb28-49bb-90aa-ec64663805a9",
         "__expectedType__": "cc.Prefab"
       }
     ],

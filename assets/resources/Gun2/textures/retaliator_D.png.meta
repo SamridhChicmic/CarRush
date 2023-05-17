@@ -2,7 +2,7 @@
   "ver": "1.0.25",
   "importer": "image",
   "imported": true,
-  "uuid": "a555fb0e-e8e4-4129-b757-40f03bc55205",
+  "uuid": "9640b1f6-f71c-46c0-bdbf-0fc670e5369f",
   "files": [
     ".json",
     ".png"
@@ -10,8 +10,8 @@
   "subMetas": {
     "6c48a": {
       "importer": "texture",
-      "uuid": "a555fb0e-e8e4-4129-b757-40f03bc55205@6c48a",
-      "displayName": "materials_models_weapons_w_models_w_c4_c4_",
+      "uuid": "9640b1f6-f71c-46c0-bdbf-0fc670e5369f@6c48a",
+      "displayName": "retaliator_D",
       "id": "6c48a",
       "name": "texture",
       "userData": {
@@ -22,7 +22,7 @@
         "mipfilter": "none",
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "a555fb0e-e8e4-4129-b757-40f03bc55205",
+        "imageUuidOrDatabaseUri": "9640b1f6-f71c-46c0-bdbf-0fc670e5369f",
         "visible": true
       },
       "ver": "1.0.22",
@@ -35,8 +35,8 @@
   },
   "userData": {
     "fixAlphaTransparencyArtifacts": true,
-    "hasAlpha": false,
+    "hasAlpha": true,
     "type": "texture",
-    "redirect": "a555fb0e-e8e4-4129-b757-40f03bc55205@6c48a"
+    "redirect": "9640b1f6-f71c-46c0-bdbf-0fc670e5369f@6c48a"
   }
 }

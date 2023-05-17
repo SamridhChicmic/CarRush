@@ -44,8 +44,8 @@ export class WeaponItemManager extends Component {
         prefab = this.Bomb;
         break;
     }
-
-    for (let index = 1; index <= PowerBoxWeapon.Node; index++) {
+    let index = 1;
+    for (index = 1; index <= PowerBoxWeapon.Node; index++) {
       setTimeout(() => {
         let pos = this.node
           .getComponent(UITransform)
@@ -62,6 +62,11 @@ export class WeaponItemManager extends Component {
         );
       }, index * 300);
     }
+    // destoy the weapon after use
+    setTimeout(() => {
+      //Here i Know that theres only one childern in weaponholder that why i used children[0]
+      this.PowerBoxMng.WeaponHolder.children[0].destroy();
+    }, (index - 1) * 300);
   }
   update(deltaTime: number) {
     if (this.PowerBoxMng.WeaponInUsed == true) {

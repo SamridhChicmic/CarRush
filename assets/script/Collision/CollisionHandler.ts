@@ -50,6 +50,9 @@ export class CollisionHandler extends Component {
     this.collisionEnter = true;
   }
   setPositionAfterCollision() {
+    if (this.PowerBoxMng.WeaponHolder.children.length > 0) {
+      this.PowerBoxMng.WeaponHolder.children[0].destroy();
+    }
     this.PowerBoxMng.CurrentCarPowerBox = null;
     this.CarRoot.setPosition(this.CheckPointPosition);
     this.CarRoot.setRotation(this.CheckPointAngles);

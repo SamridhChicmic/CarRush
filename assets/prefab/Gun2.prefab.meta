@@ -2,12 +2,12 @@
   "ver": "1.1.43",
   "importer": "prefab",
   "imported": true,
-  "uuid": "8a7cb7bb-c87f-4a3a-9b2b-eb36fc989327",
+  "uuid": "0586b573-6935-454b-b81a-2c39a8c86acb",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "Explosive"
+    "syncNodeName": "Gun2"
   }
 }

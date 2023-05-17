@@ -11,7 +11,7 @@
     "Weapon": "Cannon",
     "Power": "40",
     "Node": 3,
-    "Velocity": 15
+    "Velocity": 25
   },
   {
     "Name": "PowerBoxSphare",
