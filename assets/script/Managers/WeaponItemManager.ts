@@ -51,7 +51,7 @@ export class WeaponItemManager extends Component {
           .getComponent(UITransform)
           .convertToNodeSpaceAR(this.car.getWorldPosition());
         let WeaponNode = instantiate(prefab);
-        WeaponNode.setPosition(pos.x, pos.y + 1, pos.z);
+        WeaponNode.setPosition(pos.x, pos.y + 0.8, pos.z);
         this.node.addChild(WeaponNode);
         WeaponNode.getComponent(RigidBody).setLinearVelocity(
           new Vec3(
