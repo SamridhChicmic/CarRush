@@ -25,6 +25,6 @@
     "Weapon": "Bomb",
     "Power": "60",
     "Node": 3,
-    "Velocity": 8
+    "Velocity": -4
   }
 ]

@@ -23,7 +23,7 @@ export class PowerManager extends Component {
   PowerBoxInfo: JsonAsset = null;
   PowerBoxMng: PowerBoxManager = null;
   start() {
-    //this.powerBoxInfoLoader();
+    
     this.PowerBoxMng = PowerBoxManager.getInstance();
     let GroundElements: any = this.PowerSetterJson.json;
     let ElementLength = GroundElements.length;
@@ -41,9 +41,6 @@ export class PowerManager extends Component {
       powerNode.setPosition(this.PowerSetterJson.json[element].pos as Vec3);
     }
   }
-  // powerBoxInfoLoader() {
-  //   let PowerBoxfile:any=this.PowerBoxInfo.json;
-  // }
   retrivePowerBox() {
     for (
       let element = 0;
