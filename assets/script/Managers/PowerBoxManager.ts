@@ -5,7 +5,7 @@ const { ccclass, property } = _decorator;
 export class PowerBoxManager {
   private static _instance: PowerBoxManager = null;
   JsonPositionArray = [];
-  WeaponInUsed: boolean = null;
+  WeaponInUsed: boolean = false;
   CurrentCarPowerBox = null;
   PowerBoxForUse = null;
   WeaponHolder = null;

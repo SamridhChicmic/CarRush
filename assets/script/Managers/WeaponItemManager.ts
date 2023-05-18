@@ -24,6 +24,8 @@ export class WeaponItemManager extends Component {
   Bomb: Prefab = null;
   @property({ type: Node })
   car = null;
+
+  SpaceeBarPressed: boolean = false;
   start() {
     this.PowerBoxMng = PowerBoxManager.getInstance();
   }
@@ -51,7 +53,7 @@ export class WeaponItemManager extends Component {
           .getComponent(UITransform)
           .convertToNodeSpaceAR(this.car.getWorldPosition());
         let WeaponNode = instantiate(prefab);
-        WeaponNode.setPosition(pos.x, pos.y + 0.8, pos.z);
+        WeaponNode.setPosition(pos.x, pos.y + 0.7, pos.z);
         this.node.addChild(WeaponNode);
         WeaponNode.getComponent(RigidBody).setLinearVelocity(
           new Vec3(
@@ -65,15 +67,23 @@ export class WeaponItemManager extends Component {
     // destoy the weapon after use
     setTimeout(() => {
       //Here i Know that theres only one childern in weaponholder thats why i used children[0]
-      if (this.PowerBoxMng.WeaponHolder.children.length > 0)
+      if (this.PowerBoxMng.WeaponHolder.children.length > 0) {
         this.PowerBoxMng.WeaponHolder.children[0].destroy();
+      }
+      this.PowerBoxMng.CurrentCarPowerBox = null;
+      this.PowerBoxMng.WeaponInUsed = false;
+      this.SpaceeBarPressed = false;
     }, (index - 1) * 300);
   }
   update(deltaTime: number) {
-    if (this.PowerBoxMng.WeaponInUsed == true) {
+    if (
+      this.PowerBoxMng.WeaponInUsed == true &&
+      this.SpaceeBarPressed == false
+    ) {
       console.log("WEAPON SHOOT", this.PowerBoxMng.PowerBoxForUse);
       this.weaponShoot(this.PowerBoxMng.PowerBoxForUse);
-      this.PowerBoxMng.WeaponInUsed = false;
+      this.SpaceeBarPressed = true;
+      //this.PowerBoxMng.WeaponInUsed = false;
     }
   }
 }
