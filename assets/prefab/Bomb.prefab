@@ -79,8 +79,8 @@
     "_type": 1,
     "_mass": 1,
     "_allowSleep": true,
-    "_linearDamping": 0.1,
-    "_angularDamping": 0.1,
+    "_linearDamping": 0.9,
+    "_angularDamping": 0.9,
     "_useGravity": true,
     "_linearFactor": {
       "__type__": "cc.Vec3",
@@ -214,6 +214,7 @@
       "__id__": 0
     },
     "fileId": "b7488lTRRJI4R5WYHEBQtk",
-    "instance": null
+    "instance": null,
+    "targetOverrides": null
   }
 ]

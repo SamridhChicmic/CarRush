@@ -24,7 +24,7 @@
     "Name": "PowerBoxCylinder",
     "Weapon": "Bomb",
     "Power": "60",
-    "Node": 3,
-    "Velocity": -4
+    "Node": 1,
+    "Velocity": 10
   }
 ]
