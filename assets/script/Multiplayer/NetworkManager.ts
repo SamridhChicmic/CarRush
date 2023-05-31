@@ -1,6 +1,7 @@
 import { _decorator, Component, Node, Vec3 } from "cc";
 const { ccclass, property } = _decorator;
 import Colyseus from "db://colyseus-sdk/colyseus.js";
+import { CarControl } from "../Controls/CarControl";
 @ccclass("NetworkManager")
 export class NetworkManager extends Component {
   @property({ type: Node })
@@ -13,6 +14,7 @@ export class NetworkManager extends Component {
   position: Vec3;
   angle: Vec3;
   start() {
+    this.Car.parent.getComponent(CarControl).setNetworkManager(this);
     this.client = new Colyseus.Client(
       `${this.useSSL ? "wss" : "ws"}://${this.hostname}${
         [443, 80].includes(this.port) || this.useSSL ? "" : `:${this.port}`
@@ -34,31 +36,24 @@ export class NetworkManager extends Component {
         this.angle = this.Car.eulerAngles;
         changes.forEach((change) => {
           console.log("CHANGES----->>", change);
-          console.log("CHANGES A", change);
+
           const { field, value } = change;
           switch (field) {
-            case "x": {
-              this.position.x = value;
+            case "position": {
+              console.log("Call of position from server  ");
+              this.position = value;
               break;
             }
-            case "y": {
-              this.position.y = value;
+            case "eularAngle": {
+              console.log("Call of eular angle from server  ");
+              this.angle = value;
               break;
             }
-            case "z": {
-              this.position.z = value;
-              break;
-            }
-            case "rotationx": {
-              this.angle = new Vec3(value, this.angle.y, this.angle.z);
-              break;
-            }
-            case "rotationy": {
-              this.angle = new Vec3(this.angle.x, value, this.angle.z);
-              break;
-            }
-            case "rotationz": {
-              this.angle = new Vec3(this.angle.x, this.angle.y, value);
+            case "weaponThrow": {
+              console.log("Call of weaponfrom server  ");
+
+              this.Car.parent.getComponent(CarControl).useWeapon();
+
               break;
             }
           }
@@ -67,7 +62,7 @@ export class NetworkManager extends Component {
         this.Car.eulerAngles = this.angle;
       };
       this.room.onStateChange((state) => {
-        console.log("onStateChange: ", state);
+        //  console.log("onStateChange: ", state);
       });
 
       this.room.onLeave((code) => {
@@ -81,13 +76,9 @@ export class NetworkManager extends Component {
     this.room!.send(msg, { position, Angle });
     // console.log("Sending My Update To Room!");
   }
-  update(deltaTime: number) {
-    this.sendMyUpdateToRoom(
-      "moveCar",
-      this.Car.getPosition(),
-      this.Car.eulerAngles
-    );
-    this.Car.setPosition(this.position);
-    this.Car.eulerAngles = this.angle;
+  public sendMyUpdateToRoomForWeapon(msg: string, weaponthrow: number) {
+    console.log("weapon throw call to server");
+    this.room!.send(msg, { weaponthrow });
   }
+  update(deltaTime: number) {}
 }

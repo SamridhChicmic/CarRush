@@ -11,6 +11,7 @@ import {
 } from "cc";
 import { Car } from "../Car/Car";
 import { PowerBoxManager } from "../Managers/PowerBoxManager";
+import { NetworkManager } from "../Multiplayer/NetworkManager";
 const { ccclass, property } = _decorator;
 
 @ccclass("CarControl")
@@ -25,9 +26,14 @@ export class CarControl extends Component {
   keyRight: boolean = false;
   turn: number = 1.5;
   PowerBoxMng: PowerBoxManager = null;
+  private _NetworkManager: NetworkManager = null;
+  state=0;
   start() {
     this.PowerBoxMng = PowerBoxManager.getInstance();
     this.registerEvents();
+  }
+  setNetworkManager(reference) {
+    this._NetworkManager = reference;
   }
   registerEvents() {
     input.on(Input.EventType.KEY_DOWN, this.keyControl, this);
@@ -77,12 +83,16 @@ export class CarControl extends Component {
         this.keyLeft = true;
         break;
       case KeyCode.SPACE:
+        this._NetworkManager.sendMyUpdateToRoomForWeapon("weaponThrow", this.state++);
         this.useWeapon();
         break;
     }
   }
   useWeapon() {
-    if (this.node.getComponent(Car).CurrentWeaponInfo != null && this.PowerBoxMng.WeaponInUsed==false) {
+    if (
+      this.node.getComponent(Car).CurrentWeaponInfo != null &&
+      this.PowerBoxMng.WeaponInUsed == false
+    ) {
       console.log("Weapon Used");
       // //Here i Know that theres only one childern in weaponholder that why i used children[0]
       // this.PowerBoxMng.WeaponHolder.children[0].destroy();
@@ -92,6 +102,7 @@ export class CarControl extends Component {
     } else {
       console.log("No weapon");
     }
+    // this._NetworkManager.sendMyUpdateToRoomForWeapon("weaponThrow", false);
   }
   moveLeft(deltaTime) {
     let NodeEularAngle = this.CarRoot.eulerAngles;
@@ -100,6 +111,11 @@ export class CarControl extends Component {
       NodeEularAngle.y + this.turn,
       NodeEularAngle.z
     );
+    this._NetworkManager.sendMyUpdateToRoom(
+      "moveCar",
+      this.CarRoot.getPosition(),
+      this.CarRoot.eulerAngles
+    );
   }
   moveRight(deltaTime) {
     let NodeEularAngle = this.CarRoot.eulerAngles;
@@ -107,6 +123,11 @@ export class CarControl extends Component {
       NodeEularAngle.x,
       NodeEularAngle.y - this.turn,
       NodeEularAngle.z
+    );
+    this._NetworkManager.sendMyUpdateToRoom(
+      "moveCar",
+      this.CarRoot.getPosition(),
+      this.CarRoot.eulerAngles
     );
   }
   moveForword(deltaTime) {
@@ -121,6 +142,11 @@ export class CarControl extends Component {
       this.CarRoot.getPosition().z +
       this.CarRoot.forward.z * deltaTime * this.speed;
     this.CarRoot.setPosition(DestinationPos);
+    this._NetworkManager.sendMyUpdateToRoom(
+      "moveCar",
+      this.CarRoot.getPosition(),
+      this.CarRoot.eulerAngles
+    );
   }
   moveBackword(deltaTime) {
     let DestinationPos = new Vec3();
@@ -134,6 +160,11 @@ export class CarControl extends Component {
       this.CarRoot.getPosition().z -
       this.CarRoot.forward.z * deltaTime * this.speed;
     this.CarRoot.setPosition(DestinationPos);
+    this._NetworkManager.sendMyUpdateToRoom(
+      "moveCar",
+      this.CarRoot.getPosition(),
+      this.CarRoot.eulerAngles
+    );
   }
   update(deltaTime: number) {
     if (this.keyUp == true) this.moveForword(deltaTime);
