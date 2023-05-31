@@ -22,6 +22,12 @@ export class NetworkManager extends Component {
     );
     // Connect into the room
     this.connect();
+    setTimeout(() => {
+      this.sendMyUpdateToRoomForGroundItem(
+        "groundItemRandomNumber",
+        [1, 2, 3, 4]
+      );
+    }, 1000);
   }
   async connect() {
     try {
@@ -61,6 +67,33 @@ export class NetworkManager extends Component {
         this.Car.setPosition(this.position);
         this.Car.eulerAngles = this.angle;
       };
+      this.room.state.GroundItem.onChange = (changes) => {
+        let array = [];
+        changes.forEach((change) => {
+          const { field, value } = change;
+          array = value;
+          console.log("GroundChange", array);
+          // switch (field) {
+          //   case "position": {
+          //     console.log("Call of position from server  ");
+          //     this.position = value;
+          //     break;
+          //   }
+          //   case "eularAngle": {
+          //     console.log("Call of eular angle from server  ");
+          //     this.angle = value;
+          //     break;
+          //   }
+          //   case "weaponThrow": {
+          //     console.log("Call of weaponfrom server  ");
+
+          //     this.Car.parent.getComponent(CarControl).useWeapon();
+
+          //     break;
+          //   }
+          // }
+        });
+      };
       this.room.onStateChange((state) => {
         //  console.log("onStateChange: ", state);
       });
@@ -79,6 +112,12 @@ export class NetworkManager extends Component {
   public sendMyUpdateToRoomForWeapon(msg: string, weaponthrow: number) {
     console.log("weapon throw call to server");
     this.room!.send(msg, { weaponthrow });
+  }
+  public sendMyUpdateToRoomForGroundItem(
+    msg: string,
+    randomNumberArray: number[]
+  ) {
+    this.room!.send(msg, { randomNumberArray });
   }
   update(deltaTime: number) {}
 }
